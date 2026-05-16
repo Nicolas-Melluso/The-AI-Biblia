@@ -11,7 +11,7 @@ For AI reading, use the extracted Markdown first and return to the PDF only to v
 - Page and line index: [`pages.md`](pages.md)
 - Local agent rules: [`AGENTS.md`](AGENTS.md)
 
-Observed page count: 66
+Observed page count: 92
 
 Text extraction quality: Clean extraction observed
 

@@ -9,7 +9,7 @@ folder. The root `../AGENTS.md` remains the operational authority.
 - PDF source: `La biblia moderna.pdf`
 - Generated Markdown: `La biblia moderna.md`
 - Page and line index: `pages.md`
-- Observed page count: 66
+- Observed page count: 92
 - Text extraction quality: Clean extraction observed
 
 ## Reglas locales

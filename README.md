@@ -43,10 +43,10 @@ por ejemplo `/summarize-biblia`.
 
 | Idioma | PDF | Markdown para IA | Indice | Notas |
 | --- | --- | --- | --- | --- |
-| Espanol | [`es/La biblia moderna.pdf`](<es/La biblia moderna.pdf>) | [`es/La biblia moderna.md`](<es/La biblia moderna.md>) | [`es/pages.md`](es/pages.md) | Edicion principal observada, 66 paginas |
-| English | [`en/The modern biblia.pdf`](<en/The modern biblia.pdf>) | [`en/The modern biblia.md`](<en/The modern biblia.md>) | [`en/pages.md`](en/pages.md) | English edition observed, 66 pages |
-| Hindi | [`hi/The modern biblia.pdf`](<hi/The modern biblia.pdf>) | [`hi/The modern biblia.md`](<hi/The modern biblia.md>) | [`hi/pages.md`](hi/pages.md) | Hindi edition observed, 66 pages; text extraction may be noisy |
-| Chinese | [`zh/The modern biblia.pdf`](<zh/The modern biblia.pdf>) | [`zh/The modern biblia.md`](<zh/The modern biblia.md>) | [`zh/pages.md`](zh/pages.md) | Chinese edition observed, 63 pages |
+| Espanol | [`es/La biblia moderna.pdf`](<es/La biblia moderna.pdf>) | [`es/La biblia moderna.md`](<es/La biblia moderna.md>) | [`es/pages.md`](es/pages.md) | Edicion principal actualizada, 92 paginas |
+| English | [`en/The modern biblia.pdf`](<en/The modern biblia.pdf>) | [`en/The modern biblia.md`](<en/The modern biblia.md>) | [`en/pages.md`](en/pages.md) | English edition updated, 92 pages |
+| Hindi | [`hi/The modern biblia.pdf`](<hi/The modern biblia.pdf>) | [`hi/The modern biblia.md`](<hi/The modern biblia.md>) | [`hi/pages.md`](hi/pages.md) | Hindi edition updated, 92 pages |
+| Chinese | [`zh/The modern biblia.pdf`](<zh/The modern biblia.pdf>) | [`zh/The modern biblia.md`](<zh/The modern biblia.md>) | [`zh/pages.md`](zh/pages.md) | Chinese edition updated, 92 pages |
 
 ## Archivos Derivados
 

@@ -109,14 +109,13 @@ Before relying on this inventory, verify the current files on disk.
 
 | Folder | File | Edition | Pages observed | Text layer |
 | --- | --- | --- | ---: | --- |
-| `es/` | `La biblia moderna.pdf` + `La biblia moderna.md` | Spanish | 66 | Clean extraction observed |
-| `en/` | `The modern biblia.pdf` + `The modern biblia.md` | English | 66 | Clean extraction observed |
-| `hi/` | `The modern biblia.pdf` + `The modern biblia.md` | Hindi | 66 | Noisy extraction observed; use caution |
-| `zh/` | `The modern biblia.pdf` + `The modern biblia.md` | Chinese | 63 | Clean extraction observed; page count differs |
+| `es/` | `La biblia moderna.pdf` + `La biblia moderna.md` | Spanish | 92 | Clean extraction observed |
+| `en/` | `The modern biblia.pdf` + `The modern biblia.md` | English | 92 | Clean extraction observed |
+| `hi/` | `The modern biblia.pdf` + `The modern biblia.md` | Hindi | 92 | Clean extraction observed |
+| `zh/` | `The modern biblia.pdf` + `The modern biblia.md` | Chinese | 92 | Clean extraction observed |
 
-The English, Spanish, and Hindi editions were observed at 66 pages. The Chinese
-edition was observed at 63 pages. Treat page-count differences as possible
-layout or edition drift until verified.
+All current editions were observed at 92 pages. Treat future page-count
+differences as possible layout or edition drift until verified.
 
 ## Required Reading Workflow
 
@@ -133,8 +132,8 @@ For any reading, summary, comparison, or review task:
 6. Do not merge editions silently. If comparing editions, name every edition and
    file path used.
 7. Flag extraction quality problems explicitly, especially for Hindi.
-8. Flag page-count drift explicitly, especially Chinese at 63 pages versus the
-   66-page editions.
+8. Flag page-count drift explicitly when editions no longer share the current
+   observed 92-page shape.
 9. Separate facts observed in the files from inferences or recommendations.
 10. Mention any limitation that could affect confidence in the summary.
 

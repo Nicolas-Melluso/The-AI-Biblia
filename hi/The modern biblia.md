@@ -2,7 +2,7 @@
 language: hi
 language_name: Hindi
 source_pdf: "The modern biblia.pdf"
-page_count: 66
+page_count: 92
 generated_from_pdf: true
 ---
 
@@ -10,7 +10,7 @@ generated_from_pdf: true
 
 Source PDF: `The modern biblia.pdf`
 Language: Hindi
-Text extraction quality: Noisy extraction observed; use caution
+Text extraction quality: Hindi Markdown mirror assembled from original Hindi pages 1-63 and translated Hindi pages 64-92; verify PDF layout when needed
 
 This Markdown file is generated from the PDF to make agent reading faster.
 Use the PDF as the visual source of truth when layout or extraction is uncertain.
@@ -27,7 +27,7 @@ nicolas.e.melluso@gmail.com
 linkedin.com/in/nicolas-ezequiel-melluso
 github.com/Nicolas-Melluso
 BIBLIA - Nicolás Ezequiel Melluso
-1/66
+1/92
 
 ## Page 2
 
@@ -48,7 +48,7 @@ agents, SDD, Copilot, workflows और reusable prompts के लिए तै�
 Prompt Engineering और Harness Engineering
 अलग-अलग prompts से versioned, evaluable और production-ready systems तक
 BIBLIA - Nicolás Ezequiel Melluso
-2/66
+2/92
 
 ## Page 3
 
@@ -57,7 +57,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 मॉडल से चैट करने से लेकर सोच, निष्पादन और सत्यापन की प्रणाली के साथ काम करने
 तक
 BIBLIA - Nicolás Ezequiel Melluso
-3/66
+3/92
 
 ## Page 4
 
@@ -94,7 +94,7 @@ technical debt सहना है, या आप कौन-सा user experien
 अनुशंसित कार्य-चक्र
 AI के साथ एक मजबूत फ्लो ऐसा दिख सकता है:
 BIBLIA - Nicolás Ezequiel Melluso
-4/66
+4/92
 
 ## Page 5
 
@@ -127,7 +127,7 @@ Context की न्यूनतम इकाई
 AI तब बेहतर काम करता है जब उसे पैकेज्ड context मिले, बिखरी हुई जानकारी नहीं। गंभीर कार्य के लिए context की न्यूनतम इकाई
 में यह शामिल होना चाहिए:
 BIBLIA - Nicolás Ezequiel Melluso
-5/66
+5/92
 
 ## Page 6
 
@@ -176,7 +176,7 @@ infrastructure बदलना, या human review के बिना "final" 
 आधुनिक prompt एक operational brief जैसा होता है। उसे काव्यात्मक या बहुत बड़ा होने की जरूरत नहीं। उसे ambiguity हटानी
 चाहिए।
 BIBLIA - Nicolás Ezequiel Melluso
-6/66
+6/92
 
 ## Page 7
 
@@ -210,7 +210,7 @@ Quality:
 tests और workflows सुरक्षित रख सकती है।
 आधुनिक संगठन आमतौर पर यह विभाजन रखते हैं:
 BIBLIA - Nicolás Ezequiel Melluso
-7/66
+7/92
 
 ## Page 8
 
@@ -271,7 +271,7 @@ AI convincing text और सही दिखने वाला code बना 
 verification के उदाहरण:
 1. Unit और integration tests।
 BIBLIA - Nicolás Ezequiel Melluso
-8/66
+8/92
 
 ## Page 9
 
@@ -306,7 +306,7 @@ AGENTS.md बनाओ, वास्तविक commands लिखो, constrai
 करना नहीं है। उद्देश्य यह है कि कोई agent repo में आए और आधा घंटा अंदाज़ा लगाने में न गंवाए।
 Deliverables:
 BIBLIA - Nicolás Ezequiel Melluso
-9/66
+9/92
 
 ## Page 10
 
@@ -340,7 +340,7 @@ Deliverables:
 3. Evaluation rubric।
 4. Local script या validation workflow।
 BIBLIA - Nicolás Ezequiel Melluso
-10/66
+10/92
 
 ## Page 11
 
@@ -386,7 +386,7 @@ AI का आधुनिक उपयोग: checklist
 4. कौन-से risks बचे हैं पता है।
 5. reusable knowledge files में दर्ज है।
 BIBLIA - Nicolás Ezequiel Melluso
-11/66
+11/92
 
 ## Page 12
 
@@ -396,7 +396,7 @@ prompt trick नहीं, बल्कि अस्पष्ट काम क�
 अंतिम नियम सरल है: अगर output महत्वपूर्ण है, तो AI को production system का हिस्सा मानो। उसे context, limits, tools, tests
 और memory दो। बाकी सब सिर्फ चैट है।
 BIBLIA - Nicolás Ezequiel Melluso
-12/66
+12/92
 
 ## Page 13
 
@@ -404,7 +404,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 सबएजेंट्स का बुद्धिमान उपयोग
 बेहतर डेलीगेशन के लिए मानदंड, पैटर्न और ऑपरेशनल क्लोज़र
 BIBLIA - Nicolás Ezequiel Melluso
-13/66
+13/92
 
 ## Page 14
 
@@ -442,7 +442,7 @@ subagent के sensitive चीज़ छूने का जोखिम owner
 “acceptance criteria के बिना product decisions ले लो”।
 baseline, metric और scope के बिना “performance optimize कर दो”।
 BIBLIA - Nicolás Ezequiel Melluso
-14/66
+14/92
 
 ## Page 15
 
@@ -480,7 +480,7 @@ fixtures या test data तैयार करना।
 इससे क्या माँगना है:
 सिर्फ authorized files छुए;
 BIBLIA - Nicolás Ezequiel Melluso
-15/66
+15/92
 
 ## Page 16
 
@@ -518,7 +518,7 @@ acceptance criteria।
 पुरानी clues जो अब लागू नहीं होतीं।
 मानसिक snapshots जिन्हें agent verify नहीं कर सकता।
 BIBLIA - Nicolás Ezequiel Melluso
-16/66
+16/92
 
 ## Page 17
 
@@ -554,7 +554,7 @@ Exploration parallelism
 एक implementation locate करता है;
 दूसरा tests पहचानता है;
 BIBLIA - Nicolás Ezequiel Melluso
-17/66
+17/92
 
 ## Page 18
 
@@ -589,7 +589,7 @@ anti-patterns शुरुआत में productivity जैसे लगत�
 1. Vague delegation
 आप बहुत व्यापक मांग रखते हैं और बहुत generic output पाते हैं। agent खाली जगह assumptions से भर देता है।
 BIBLIA - Nicolás Ezequiel Melluso
-18/66
+18/92
 
 ## Page 19
 
@@ -623,7 +623,7 @@ Suggested model: lightweight या fast।
 Effort: low।
 Objective: गति और कम लागत।
 BIBLIA - Nicolás Ezequiel Melluso
-19/66
+19/92
 
 ## Page 20
 
@@ -655,7 +655,7 @@ effort “हमेशा high” नहीं होना चाहिए। �
 Delegation prompts के उदाहरण
 बेहतरीन subagent prompts खुले अनुरोध जैसे नहीं लगते। वे अच्छेे लिखे tickets जैसे लगते हैं।
 BIBLIA - Nicolás Ezequiel Melluso
-20/66
+20/92
 
 ## Page 21
 
@@ -692,7 +692,7 @@ Scope: read the patch and touched files.
 Deliverable: concrete findings, open questions, and validation suggestions.
 Do not modify files.
 BIBLIA - Nicolás Ezequiel Melluso
-21/66
+21/92
 
 ## Page 22
 
@@ -729,7 +729,7 @@ subagents उपयोग करने का robust flow आम तौर प�
 7. closure को evidence के साथ verify करें।
 अगर task बड़ा है, तो यह flow परतों में दोहराया जा सकता है: पहले explorers, फिर workers, फिर independent review।
 BIBLIA - Nicolás Ezequiel Melluso
-22/66
+22/92
 
 ## Page 23
 
@@ -754,7 +754,7 @@ ownership और verification पर निर्भर करती है।
 सबसे अच्छी प्रैक्टिस “AI को अकेले काम करने देना” नहीं है। बल्कि ऐसी काम-श्रृंृंखला बनाना है जहाँ हर हिस्से की भूमिका सीमित हो,
 output जाँची जा सके, और closure स्पष्ट हो। तब subagents एक वादे से आगे बढ़कर सच में उपयोगी tool बनते हैं।
 BIBLIA - Nicolás Ezequiel Melluso
-23/66
+23/92
 
 ## Page 24
 
@@ -762,7 +762,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 SDD और सपोर्ट संरचना
 AI-सक्षम repositories में लागू Specification-Driven Development
 BIBLIA - Nicolás Ezequiel Melluso
-24/66
+24/92
 
 ## Page 25
 
@@ -802,7 +802,7 @@ task काम को व्यवस्थित करती है।
 acceptance scope बंद करती है।
 trace धागा ट्रैक करने देती है।
 BIBLIA - Nicolás Ezequiel Melluso
-25/66
+25/92
 
 ## Page 26
 
@@ -847,7 +847,7 @@ sample-spec.md
 पहले दिन से सभी folders का होना जरूरी नहीं है। महत्वपूर्ण यह है कि architecture scalability के लिए सोचा गया हो और
 readability बनी रहे।
 BIBLIA - Nicolás Ezequiel Melluso
-26/66
+26/92
 
 ## Page 27
 
@@ -881,7 +881,7 @@ objectives या constraints हैं।
 कौन-से signals success दिखाएँगे।
 संक्षिप्त उदाहरण:
 BIBLIA - Nicolás Ezequiel Melluso
-27/66
+27/92
 
 ## Page 28
 
@@ -917,7 +917,7 @@ date;
 author या team।
 decision का उदाहरण:
 BIBLIA - Nicolás Ezequiel Melluso
-28/66
+28/92
 
 ## Page 29
 
@@ -954,7 +954,7 @@ coverage summary;
 commits, issues या PRs के references;
 जो scope से बाहर रह गया उस पर notes।
 BIBLIA - Nicolás Ezequiel Melluso
-29/66
+29/92
 
 ## Page 30
 
@@ -994,7 +994,7 @@ issue या feature का work cycle
 े
 में
 BIBLIA - Nicolás Ezequiel Melluso
-30/66
+30/92
 
 ## Page 31
 
@@ -1029,7 +1029,7 @@ decision क्या रहा।
 7. TRACE-014 issue, PR और tests को link करता है।
 8. EVAL-014 परिणाम और open points summarize करता है।
 BIBLIA - Nicolás Ezequiel Melluso
-31/66
+31/92
 
 ## Page 32
 
@@ -1062,7 +1062,7 @@ Task
 dependencies:
 कैसे validate होगा:
 BIBLIA - Nicolás Ezequiel Melluso
-32/66
+32/92
 
 ## Page 33
 
@@ -1096,7 +1096,7 @@ AI के साथ SDD कैसे उपयोग करें
 AI documentation की value बदल देता है। पहले spec मुख्यतः इंसानों के लिए थी। अब यह assistants के लिए context contract
 भी है।
 BIBLIA - Nicolás Ezequiel Melluso
-33/66
+33/92
 
 ## Page 34
 
@@ -1132,7 +1132,7 @@ acceptance को result के हिसाब से फिर लिखना
 खाली traces
 सिर्फ “PR में है” कहना काफी नहीं। अगर मूल requirement तक धागा नहीं जाता, तो traceability मौजूद नहीं है।
 BIBLIA - Nicolás Ezequiel Melluso
-34/66
+34/92
 
 ## Page 35
 
@@ -1169,7 +1169,7 @@ ambiguity की लागत कई गुना बढ़ती है।
 .github/orquestador/sdd की संरचना एक सरल प्रस्ताव देती है: सही हिस्सोंों को अलग करो ताकि हर हिस्सा अपना काम करे
 और सब मिलकर readable system बनें। Requirements, specs, decisions, tasks, acceptance criteria, traces, runbooks,
 BIBLIA - Nicolás Ezequiel Melluso
-35/66
+35/92
 
 ## Page 36
 
@@ -1178,7 +1178,7 @@ ADRs और evaluation notes सजावटी folders नहीं हैं�
 अगर repository यह काम करने का तरीका अपनाती है, तो हर feature भरोसे की छलांग नहीं रहती। वह एक traceable, reviewable
 और improvable process बन जाती है। और AI-assisted stack में इसकी कीमत किसी भी तात्कालिक shortcut से ज़्यादा है।
 BIBLIA - Nicolás Ezequiel Melluso
-36/66
+36/92
 
 ## Page 37
 
@@ -1188,7 +1188,7 @@ AGENTS.md, .github और Prompt-
 agents, SDD, Copilot, workflows और reusable prompts के लिए तैयार repository
 कैसे बनाएं
 BIBLIA - Nicolás Ezequiel Melluso
-37/66
+37/92
 
 ## Page 38
 
@@ -1244,7 +1244,7 @@ inventory
 GitHub Actions
 वास्तविक automation: CI, reviewers, validations
 BIBLIA - Nicolás Ezequiel Melluso
-38/66
+38/92
 
 ## Page 39
 
@@ -1254,7 +1254,7 @@ Golden rule: context file को execution का दिखावा नही�
 अनुशंसित संरचना
 AI, SDD और GitHub-first तरीके से काम करने वाली repo के लिए एक उचित आधार:
 BIBLIA - Nicolás Ezequiel Melluso
-39/66
+39/92
 
 ## Page 40
 
@@ -1305,7 +1305,7 @@ safety.md
 context/product.md , sdd/specs/ , prompts/ और workflows/ci.yml से शुरू हो सकता है। बाकी तब जोड़ा जाए
 जब वास्तविक repetition दिखे।
 BIBLIA - Nicolás Ezequiel Melluso
-40/66
+40/92
 
 ## Page 41
 
@@ -1322,7 +1322,7 @@ product vision नहीं है। यह इंसानों के लि
 7. task बंद कैसे करना है।
 Base example:
 BIBLIA - Nicolás Ezequiel Melluso
-41/66
+41/92
 
 ## Page 42
 
@@ -1360,7 +1360,7 @@ Antes de cerrar, informar:
 पास वाला AGENTS.md , root AGENTS.md के नियमों को specialize कर सकता है। System या platform instructions सबसे
 ऊपर priority रखते हैं।
 BIBLIA - Nicolás Ezequiel Melluso
-42/66
+42/92
 
 ## Page 43
 
@@ -1392,7 +1392,7 @@ Path-based instructions आपको यह कहने देते हैं:
 करता है।
 Backend example:
 BIBLIA - Nicolás Ezequiel Melluso
-43/66
+43/92
 
 ## Page 44
 
@@ -1422,7 +1422,7 @@ plan करना, PR review करना, tests generate करना, ADR ल�
 आए तो remove करें।
 plan-feature.prompt.md example:
 BIBLIA - Nicolás Ezequiel Melluso
-44/66
+44/92
 
 ## Page 45
 
@@ -1461,7 +1461,7 @@ Salida:
 No hagas comentarios de estilo si no afectan mantenimiento o comportamiento.
 qa-harness.prompt.md example:
 BIBLIA - Nicolás Ezequiel Melluso
-45/66
+45/92
 
 ## Page 46
 
@@ -1499,7 +1499,7 @@ request की creative interpretation implement करने से रोक�
 एक minimal spec में यह शामिल होना चाहिए:
 1. Problem.
 BIBLIA - Nicolás Ezequiel Melluso
-46/66
+46/92
 
 ## Page 47
 
@@ -1534,7 +1534,7 @@ Workflows को एकमात्र executable layer रखना
 और यह भ्रम कि execution वास्तव में कहां हो रहा है।
 शुरुआत के लिए conservative pattern:
 BIBLIA - Nicolás Ezequiel Melluso
-47/66
+47/92
 
 ## Page 48
 
@@ -1578,7 +1578,7 @@ Catalog execute नहीं करता। यह document करता है
 1. कौन-सा workflow मौजूद है।
 2. उसे कौन-सा event trigger करता है।
 BIBLIA - Nicolás Ezequiel Melluso
-48/66
+48/92
 
 ## Page 49
 
@@ -1614,7 +1614,7 @@ Example:
 10. SDD में traceability अपडेट की जाती है।
 महत्वपूर्ण बात यह है कि हर कदम traces छोड़ता है। टीम को chat में क्या बात हुई, यह याद रखने पर निर्भर नहीं रहना पड़ता।
 BIBLIA - Nicolás Ezequiel Melluso
-49/66
+49/92
 
 ## Page 50
 
@@ -1663,7 +1663,7 @@ GitHub Docs - Adding repository custom instructions for GitHub Copilot
 GitHub Docs - Prompt files
 GitHub Docs - Your first prompt file
 BIBLIA - Nicolás Ezequiel Melluso
-50/66
+50/92
 
 ## Page 51
 
@@ -1677,7 +1677,7 @@ technical contract देता है। Prompt files दोहराए जा
 Catalog सिस्टम समझाता है।
 जब ये हिस्से align होते हैं, तो AI एक loose chat नहीं रहता, बल्कि work infrastructure बन जाता है।
 BIBLIA - Nicolás Ezequiel Melluso
-51/66
+51/92
 
 ## Page 52
 
@@ -1686,7 +1686,7 @@ Prompt Engineering और Harness
 Engineering
 अलग-अलग prompts से versioned, evaluable और production-ready systems तक
 BIBLIA - Nicolás Ezequiel Melluso
-52/66
+52/92
 
 ## Page 53
 
@@ -1725,7 +1725,7 @@ context में result review के लिए logging और observability।
 ये decorative layers नहीं हैं। assistant, classifier, writer, router, या agent पर भरोसा करने के लिए यही minimum
 infrastructure है।
 BIBLIA - Nicolás Ezequiel Melluso
-53/66
+53/92
 
 ## Page 54
 
@@ -1758,7 +1758,7 @@ execute न करो।
 5. uncertainty policy
 mature prompt बताता है कि context missing होने पर क्या करना है। इससे hallucinations और shaky responses कम होते हैं।
 BIBLIA - Nicolás Ezequiel Melluso
-54/66
+54/92
 
 ## Page 55
 
@@ -1792,7 +1792,7 @@ precision, safety और actionable steps को prioritize करते हो�
 task prompts
 ये किसी specific execution के लिए point instructions हैं। इन्हें short, specific, और result-focused होना चाहिए।
 BIBLIA - Nicolás Ezequiel Melluso
-55/66
+55/92
 
 ## Page 56
 
@@ -1832,7 +1832,7 @@ stable;
 reproducible;
 readable;
 BIBLIA - Nicolás Ezequiel Melluso
-56/66
+56/92
 
 ## Page 57
 
@@ -1868,7 +1868,7 @@ Harness CLI: चलाओ, compare करो, repeat करो
 harness वह environment है जो fixtures के साथ prompts चलाता है, results log करता है, और उन्हें reference के खिलाफ
 compare करता है। एक अच्छी CLI इसे terminal और CI से repeatable बनाती है।
 BIBLIA - Nicolás Ezequiel Melluso
-57/66
+57/92
 
 ## Page 58
 
@@ -1910,7 +1910,7 @@ CLI को क्या करना चाहिए
 उपयोगी CLI सिर्फ model call नहीं करती। वह:
 files के अस्तित्व की validation करती है;
 BIBLIA - Nicolás Ezequiel Melluso
-58/66
+58/92
 
 ## Page 59
 
@@ -1940,7 +1940,7 @@ actionable usefulness।
 1 = partial
 2 = meets criteria
 BIBLIA - Nicolás Ezequiel Melluso
-59/66
+59/92
 
 ## Page 60
 
@@ -1980,7 +1980,7 @@ language बदल जाती है;
 JSON format parser तोड़ देता है;
 tool तब invoke होता है जब नहीं होना चाहिए।
 BIBLIA - Nicolás Ezequiel Melluso
-60/66
+60/92
 
 ## Page 61
 
@@ -2014,7 +2014,7 @@ external validation वाली चीजें "अपने आप solve" क
 यह assume मत करो कि तुम्हें external systems का access है। अगर impactful action चाहिए, तो उसे describe करो और
 confirmation मांगो।
 BIBLIA - Nicolás Ezequiel Melluso
-61/66
+61/92
 
 ## Page 62
 
@@ -2055,7 +2055,7 @@ log उदाहरण
 े
 ि
 BIBLIA - Nicolás Ezequiel Melluso
-62/66
+62/92
 
 ## Page 63
 
@@ -2094,93 +2094,960 @@ saveRun({ fixtureId: fixture.id, output, score })
 }
 बिं
 BIBLIA - Nicolás Ezequiel Melluso
-63/66
+63/92
 
 ## Page 64
 
-इस उदाहरण का मुख्य बिंदु
-शुरुआत के लिए sophistication जरूरी नहीं। जरूरी यह है कि flow:
-explicit हो;
-reproducible हो;
-versioned हो;
-evaluable हो;
-comparable हो।
-यह मौजूद हो तो scale करना संभव है। इसके बिना maintenance मुश्किल है।
-prompts को iterate करने के criteria (system तोड़े बिना)
-prompt सुधारते समय blind edits मत करो। एक short और disciplined cycle बेहतर है।
-iteration checklist
-exact problem define करो;
-representative fixture चुनो;
-improvement hypothesis लिखो;
-एक बार में एक ही चीज बदलो;
-harness चलाओ;
-baseline से compare करो;
-नए failures review करो;
-change accept करो या revert करो;
-decision document करो।
-practical rules
-1. format improvements और policy changes को same iteration में mix मत करो।
-2. सिर्फ एक happy example से change justify मत करो।
-3. regressions देखे बिना victory declare मत करो।
-4. version और rationale के बिना नया prompt save मत करो।
-5. critical business logic को सिर्फ prompt के अंदर मत रखो, अगर वह code में बेहतर रह सकती है।
-कब logic को prompt से बाहर ले जाना चाहिए
-prompt को सब कुछ ढोना नहीं चाहिए। अगर कोई rule strict, verifiable, और business-central है, तो अक्सर उसे model के बाहर
-code करना बेहतर है।
-उदाहरण:
-schema validation;
-permission rules;
-BIBLIA - Nicolás Ezequiel Melluso
-64/66
+व्यावहारिक नियम
+यदि कोई निर्देश हर मामले में दोहराया जाता है, तो वह शायद persistent layer में जाता है। यदि वह हर execution में बदलता है, तो वह task layer में जाता है। यदि वह user input में रहता है, तो उसे policy के साथ मत मिलाओ। इन चीजों को अलग रखने से errors घटते हैं और system maintainable बनता है।
+Fixtures: behavior test करने के ठोस cases
+fixture एक controlled input case है जो realistic situation को represent करता है। prompt engineering में fixtures जरूरी हैं, क्योंकि वे दिखाते हैं कि system typical, rare या dangerous scenarios में सही respond करता है या नहीं।
+सिर्फ एक happy example काफी नहीं है। गंभीर harness को ऐसे fixtures चाहिए जो cover करें:
+clean inputs;
+incomplete inputs;
+contradictory inputs;
+noisy inputs;
+ambiguous requests;
+unsafe output force करने की कोशिशें;
+format edge cases.
+fixture example
+{
+  "id": "ticket-001",
+  "input": "मुझे चाहिए कि कोई पिछले महीने की invoice review करे, क्योंकि लगता है कि उसमें गलती है।",
+  "expected_traits": [
+    "identifier missing हो तो clarification मांगे",
+    "data invent न करे",
+    "professional tone रखे",
+    "next step propose करे"
+  ]
+}
+अच्छे fixture की पहचान
+अच्छा fixture tricks से model को हराने की कोशिश नहीं करता। वह useful situation describe करता है। उसे होना चाहिए:
+stable;
+reproducible;
+legible;
+representative;
+extend करना आसान.
+यदि fixture लगातार बदलता है, तो versions compare करने में काम नहीं आता। यदि वह बहुत artificial है, तो real use को reflect नहीं करता। quality balance में है।
 
 ## Page 65
 
-deterministic routing;
-sensitive data filtering;
-format normalization;
-metric computation।
-prompt वही करे जिसमें वह अच्छा है: interpret करना, prioritize करना, लिखना, synthesize करना, और context के साथ निर्णय
-लेना। code वही करे जिसमें वह अच्छा है: validate करना, control करना, और deterministic execution।
-maturity signals
-आप "loose prompt" से "system" में तब जाते हैं जब इन सवालों का जवाब बिना improvisation दे सकें:
-production में कौन-सा prompt version है?
-किन fixtures से validate होता है?
-rubric कौन-से criteria define करता है?
-baseline के मुकाबले क्या बदला?
-कौन-से actions allowed हैं?
-logs में क्या रिकॉर्ड हुआ?
-कौन-सी regressions tolerate हैं और कौन-सी नहीं?
-अगर ये जवाब बिखरे हुए हों, तो system अभी भी human memory पर ज्यादा निर्भर है।
-operational summary
-prompt engineering सिर्फ बेहतर लिखना नहीं है। यह ऐसी instruction interface बनाना है जो समय के साथ टिक सके। harness
-engineering वही support है जो इस sustainability को संभव बनाता है: fixtures load करना, versions run करना, results
-evaluate करना, evidence record करना, और accidental changes से system को बचाना।
-practical discipline एक simple formula में समेटी जा सकती है:
-persistent instructions और task prompts को अलग करो;
-real और representative fixtures उपयोग करो;
-golden tests और rubrics से expectations fix करो;
-changes publish करने से पहले regression tests चलाओ;
-permissions और sensitive actions control करो;
-production behavior observe करो;
-जो भी महत्वपूर्ण है उसका version रखो।
-जब यह सब मौजूद होता है, prompt एक bet नहीं रहता। वह एक engineering component बन जाता है।
-final checklist
-system की persistent instruction define करो।
-BIBLIA - Nicolás Ezequiel Melluso
-65/66
+Golden tests: expected behavior को स्थिर करना
+Golden tests expected output या output की बहुत concrete properties के against tests हैं। जब prompt, model या tool chain बदलती है, तब ये regressions पकड़ने में मदद करते हैं।
+दो common forms हैं:
+Exact golden
+जब output बहुत stable होना चाहिए, जैसे structured format, तब उपयोगी है।
+Example:
+{
+  "id": "routing-01",
+  "expected": {
+    "category": "billing",
+    "confidence": "high"
+  }
+}
+Property-based golden
+जब पूरा text freeze नहीं करना है, लेकिन behavior freeze करना है, तब उपयोगी है।
+Example:
+response कोई data invent न करे;
+warning include करे;
+exactly 3 steps लौटाए;
+expected language use करे;
+unauthorized tools mention न करे.
+दूसरा format ज्यादा flexible है और natural-language systems में अक्सर ज्यादा useful होता है। golden हमेशा exact string नहीं होता; कई बार वह observable rules का पालन होता है।
+Harness CLI: run, compare, repeat
+harness वह environment है जो prompts को fixtures के साथ execute करता है, results record करता है और reference के against compare करता है। अच्छी तरह design की गई CLI इसे terminal और CI से repeatable बनाती है।
+एक reasonable structure अलग रखता है:
+prompt definition;
+fixture definition;
+model configuration;
+batch execution;
+evaluation;
 
 ## Page 66
 
-task prompt को dynamic context से अलग करो।
-happy, ambiguous, और risky cases के लिए fixtures बनाओ।
-हर critical behavior के लिए कम से कम एक golden test लिखो।
-simple और repeatable rubric design करो।
-run , eval , और report के साथ harness CLI implement करो।
-prompts, model, और configuration का versioning save करो।
-हर execution की logs और latency record करो।
-permissions, fallbacks, और no-tool cases test करो।
-हर change को baseline के against compare करो।
-change और rollback decisions document करो।
-इतना सेटअप एक promising idea को productive, auditable, और maintainable capability में बदलने के लिए पर्याप्त है।
-BIBLIA - Nicolás Ezequiel Melluso
-66/66
+report;
+results export.
+संभावित structure
+prompt-harness/
+  prompts/
+    system.md
+    task.md
+  fixtures/
+    inbox.jsonl
+    safety.jsonl
+    formatting.jsonl
+  evals/
+    rubric.md
+    scoring.ts
+  runs/
+    run-001.jsonl
+  reports/
+    latest.md
+  src/
+    cli.ts
+    harness.ts
+    loader.ts
+    evaluator.ts
+Example commands
+node src/cli.js run --prompt prompts/system.md --fixtures fixtures/inbox.jsonl
+node src/cli.js eval --run runs/latest.jsonl --rubric evals/rubric.md
+node src/cli.js compare --baseline runs/baseline.jsonl --candidate runs/latest.jsonl
+node src/cli.js report --input runs/latest.jsonl --output reports/latest.md
+CLI को क्या करना चाहिए
+useful CLI सिर्फ model call नहीं करती। वह यह भी करती है:
+files exist हैं या नहीं validate करती है;
+inputs normalize करती है;
+prompt और model version record करती है;
+timestamps save करती है;
+raw responses serialize करती है;
+metrics calculate करती है;
+CI के लिए clear summary emit करती है।
+यदि harness सिर्फ सुंदर text print करता है, तो वह demo है। यदि वह traceability और comparison भी छोड़ता है, तो वह infrastructure बनने लगता है।
+
+## Page 67
+
+init.sh health contract के रूप में
+development harness में सबसे important script हमेशा सबसे sophisticated नहीं होती। कई बार वह एक ही command होती है:
+./init.sh
+इस script को एक simple question का जवाब देना चाहिए: "क्या यह repo आगे बढ़ने की condition में है?" इसके लिए यह कर सकता है:
+1. dependencies मौजूद हैं या नहीं validate करना।
+2. tests चलाना।
+3. linters या typechecks चलाना।
+4. specs की structure validate करना।
+5. confirm करना कि एक से अधिक feature in_progress न हों।
+6. requirements और tests के बीच traceability missing हो तो fail करना।
+Operational rule:
+यदि ./init.sh red है, तो feature done नहीं हो सकती।
+लक्ष्य CI को replace करना नहीं है। लक्ष्य agent को clear local gate देना है। यदि हर closure "./init.sh execute किया, result green" पर खत्म होता है, तो team कम ambiguity के साथ review कर सकती है।
+Recommended minimal contract:
+0 = सब green
+1 = validation या tests failure
+2 = local configuration missing
+3 = invalid SDD structure
+4 = insufficient permissions या blocked action
+यह भी बेहतर है कि script idempotent हो: उसे दो बार चलाने से repo change न हो और invisible state पर depend न करे। यदि वह बहुत slow है, तो quick checks और heavy suites अलग करो और दोनों commands document करो। agent को reliable local gate चाहिए, unpredictable ritual नहीं।
+Minimal example:
+#!/usr/bin/env sh
+set -eu
+command -v node >/dev/null 2>&1 || exit 2
+npm test || exit 1
+npm run lint || exit 1
+node scripts/validate-sdd.mjs || exit 3
+node scripts/check-permissions.mjs || exit 4
+
+## Page 68
+
+यदि team मुख्यतः Windows पर काम करती है, तो equivalent init.ps1 या node scripts/init.mjs हो सकता है। जरूरी बात यह है कि documented, repeatable closure command हो और exit codes clear हों।
+Requirement-test traceability
+गंभीर harness सिर्फ "tests हैं" से संतुष्ट नहीं होता। उसे जानना होता है कि कौन-सा test कौन-से requirement को cover करता है।
+Example:
+R1 -> test_recent_default_limit
+R2 -> test_recent_invalid_limit
+R3 -> test_recent_empty_store
+Traceability यहाँ रह सकती है:
+specs/<feature>/requirements.md ;
+specs/<feature>/tasks.md ;
+progress/review_<feature>.md ;
+harness द्वारा generated table.
+Reviewer को reject करना चाहिए यदि:
+1. कोई R<n> test के बिना है।
+2. नया test किसी requirement से linked नहीं है।
+3. task कहती है कि वह requirement cover करती है, लेकिन test यह prove नहीं करता।
+4. code ऐसा behavior implement करता है जो spec में नहीं है।
+यह common trap रोकता है: tests code exercise करते हैं, लेकिन real contract verify नहीं करते।
+Useful trace table इस तरह दिखती है:
+Requirement
+Test
+Evidence
+State
+R1
+test_recent_default_limit
+tests/test_recent.py
+covered
+R2
+test_recent_invalid_limit
+tests/test_recent.py
+covered
+R3
+test_recent_empty_store
+tests/test_recent.py
+covered
+Closure rule simple है: कोई feature तब तक finished नहीं है जब तक trace table में gaps हों।
+
+## Page 69
+
+Hooks और workflows guardrails के रूप में
+यदि कोई rule critical है, तो उसे सिर्फ agent की memory पर depend नहीं करना चाहिए। उसे automate करना बेहतर है।
+Claude-first surface में hooks edit के बाद lightweight check और closure से पहले full validation execute कर सकते हैं:
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run check:quick"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run check:full"
+          }
+        ]
+      }
+    ]
+  }
+}
+GitHub-first surface में equivalent workflows हैं:
+.claude/settings.json  -> Claude Code के लिए local hooks
+.github/workflows/*   -> PR/CI में remote validation
+principle वही है: important rules को executable verification में बदलना।
+Commands examples हैं। Python, Go, Rust या Windows-first repo में project का natural command use करना बेहतर है। important rule runtime का नाम नहीं, बल्कि quick checks और complete closure को अलग करना है।
+important detail यह है कि वे fail कैसे होते हैं। ऐसा hook जो warning print करे लेकिन continue allow करे, कुछ block नहीं करता। यदि rule mandatory है, तो command को non-zero exit code लौटाना चाहिए और short message छोड़ना चाहिए कि क्या fix करना है। यदि rule सिर्फ informative है, तो उसे explicitly कहना चाहिए ताकि वह real gate से confuse न हो।
+
+## Page 70
+
+Harness-SDD Checklist
+AI-assisted feature close करने से पहले:
+- [ ] केवल एक active feature है।
+- [ ] `feature_list.json` real state reflect करता है।
+- [ ] यदि `sdd: true`, तो `requirements.md`, `design.md`, `tasks.md` मौजूद हैं।
+- [ ] human ने code छूने से पहले spec approve किया।
+- [ ] हर requirement के पास id `R<n>` है।
+- [ ] हर `R<n>` के पास कम से कम एक test है।
+- [ ] हर task एक या अधिक requirements reference करती है।
+- [ ] implementer ने completed tasks mark कीं।
+- [ ] reviewer ने traceability validate की।
+- [ ] `./init.sh` green finish होता है।
+- [ ] `progress/current.md` closed या blocked mark हुआ।
+- [ ] `progress/history.md` में final summary आई।
+यह list जानबूझकर strict है। आधुनिक AI को increasingly long prompts से control नहीं किया जाता। उसे harnesses से control किया जाता है: files, states, specs, permissions, tests और reviews, जो agent को evidence छोड़े बिना process skip नहीं करने देते।
+Evals और rubrics: "मुझे पसंद है" से आगे measure करना
+prompt evaluation सिर्फ intuition पर depend नहीं कर सकती। repeatable criteria चाहिए। यही rubric है: "good" का explicit definition।
+Naming convention: SDD में evaluations/ अक्सर evaluation notes, conclusions और decisions रखता है। harness में evals/ अक्सर executable या semi-executable pieces रखता है: rubrics, scoring, fixtures और scripts। ये connect हो सकते हैं, लेकिन same function नहीं निभाते। evals/ measure करता है; evaluations/ stance और decision छोड़ता है।
+Simple rubric
+rubric dimensions score कर सकती है, जैसे:
+context fidelity;
+completeness;
+accuracy;
+format;
+tone;
+safety;
+actionable usefulness.
+Example:
+Score 0-2 per dimension:
+0 = serious failure
+
+## Page 71
+
+1 = partial
+2 = passes
+Possible thresholds:
+average >= 1.7 और कोई critical dimension 0 नहीं -> approvable
+average 1.2 से 1.69 -> review needed
+average < 1.2 या safety = 0 -> rejected
+threshold universal नहीं होना चाहिए। evaluation से पहले written होना चाहिए, क्योंकि result देखने के बाद rule बदलना evaluation को opinion बना देता है।
+Example evals/rubric.md :
+# Operational response rubric
+## Dimensions
+- Context fidelity: data invent नहीं करता और sources contradict नहीं करता।
+- Completeness: requested points cover करता है।
+- Actionability: verifiable next steps छोड़ता है।
+- Safety: permissions और blocks respect करता है।
+- Format: requested structure deliver करता है।
+## Decision rule
+- Approvable: average >= 1.7 और safety > 0.
+- Review: average 1.2 से 1.69.
+- Rejected: average < 1.2 या safety = 0.
+Evaluation example
+Dimension
+Criterion
+Fidelity
+input contradict किए बिना data invent नहीं करता
+Format
+requested structure respect करता है
+Tone
+professional language रखता है
+Actionability
+useful next steps देता है
+Safety
+prohibited actions execute या recommend नहीं करता
+Automatic और human evaluation
+दोनों approaches combine करना बेहतर है।
+automatic: objective rules, format, length, field presence, prohibited patterns के लिए;
+
+## Page 72
+
+human: quality, clarity, persuasion, usefulness और alignment के nuances के लिए।
+real systems में सबसे common error poor automatic metrics को complete solution मान लेना है। वे useful हैं, लेकिन critical reading replace नहीं करते। good practice है automation से filter करना और human rubric से decide करना।
+Regression tests: जो पहले काम कर रहा था वह न टूटे
+regression test versions के बीच behavior compare करता है। लक्ष्य system को हमेशा के लिए freeze करना नहीं, बल्कि unwanted changes detect करना है।
+mature workflow में prompt या model के हर change को जवाब देना चाहिए:
+1. क्या improve हुआ;
+2. क्या खराब हुआ;
+3. कौन-से नए cases आए;
+4. कौन-सा trade-off accepted है;
+5. किसे rollback चाहिए।
+Typical regression cases
+new prompt जरूरत से ज्यादा verbose हो जाता है;
+safety warning गायब हो जाती है;
+model clarifications मांगना छोड़ देता है;
+language बदल जाती है;
+JSON format parser तोड़ देता है;
+tool ऐसी जगह invoke होती है जहाँ नहीं होनी चाहिए।
+Practical strategy
+critical fixtures का छोटा set और exploratory fixtures का बड़ा set रखो। critical fixtures essential behavior protect करते हैं। exploratory fixtures दिखाते हैं कि main path के बाहर system कैसा behave करता है।
+यदि regression test fail हो, तो "output fix" करना काफी नहीं है। समझना होगा problem कहाँ है:
+prompt;
+model;
+post-processing;
+configuration;
+policy;
+dataset.
+Security और permissions
+जब model actions produce करता है, तो अच्छा जवाब देना काफी नहीं। उसे clear limits के भीतर act भी करना होता है। tool-based systems में safety prompt और harness design का हिस्सा है।
+
+## Page 73
+
+Basic principles
+least privilege;
+sensitive actions के लिए confirmation;
+suggest और execute को अलग रखना;
+input और output validation;
+decision logging;
+dangerous actions का explicit block.
+Rule example
+यदि कोई action data modify करता है, money charge करता है, information delete करता है या external messages भेजता है, तो execute करने से पहले human confirmation मांगो।
+Safe prompt
+prompt को permissions या credentials assumed नहीं करने चाहिए। उसे model को ऐसी चीजें "अपने आप solve" करने के लिए encourage नहीं करना चाहिए जिन्हें external validation चाहिए।
+Example:
+यह assume मत करो कि तुम्हारे पास external systems access है। यदि impact वाली action चाहिए, तो उसे describe करो और confirmation मांगो।
+Safe harness
+harness को permissions simulate करने और limits test करने चाहिए:
+without internet access;
+tools disabled;
+fake credentials;
+read-only mode;
+confirmation required.
+इससे verify होता है कि system सिर्फ सब कुछ enabled होने पर नहीं, बल्कि restrictions में भी correctly operate करता है।
+Observability: सच में क्या हुआ देखना
+observability वह है जिससे system lab से बाहर निकलने के बाद debug और learn किया जा सकता है। यदि production में prompt fail होता है, तो context reconstruct करना पड़ता है।
+क्या record करना चाहिए
+prompt version;
+model version;
+
+## Page 74
+
+date और time;
+summarized input;
+raw output;
+used tools;
+latency;
+estimated cost;
+errors;
+policy decision;
+fixture या case identifier.
+Log example
+{
+  "run_id": "run-001",
+  "prompt_version": "1.4.2",
+  "model": "provider-model-id",
+  "fixture_id": "safety-03",
+  "latency_ms": 1840,
+  "tools_used": ["search"],
+  "outcome": "needs_review"
+}
+Log hygiene: secrets, tokens, unnecessary personal data या internal prompts मत save करो जिन्हें circulate नहीं किया जा सकता। audit के लिए identifiers, hashes, input summary, relevant output और controlled artifacts की pointers अक्सर enough होते हैं।
+पहले क्या देखना चाहिए
+जब कुछ fail होता है, तो review करो:
+1. original input;
+2. applied real prompt;
+3. model configuration;
+4. available tools;
+5. raw output;
+6. post-processing;
+7. evaluation criterion.
+observability के बिना हर bug magic जैसा लगता है। observability के साथ वह auditable decisions की sequence बन जाता है।
+Minimal harness example
+idea को जमीन पर लाने के लिए, एक ऐसा system imagine करो जो internal requests classify करता है और short plan के साथ respond करता है। minimum architecture ऐसी दिख सकती है:
+
+## Page 75
+
+1. persistent instructions load करना
+2. task prompt load करना
+3. fixture load करना
+4. final message build करना
+5. model execute करना
+6. format validate करना
+7. rubric से score करना
+8. result save करना
+9. baseline के against compare करना
+10. report करना
+Pseudocode
+const system = loadFile("prompts/system.md")
+const task = loadFile("prompts/task.md")
+const fixtures = loadJsonl("fixtures/inbox.jsonl")
+for (const fixture of fixtures) {
+  const input = buildInput(system, task, fixture)
+  const output = await model.run(input)
+  const score = evaluate(output, fixture.expected_traits)
+  saveRun({ fixtureId: fixture.id, output, score })
+}
+example की important बात
+start करने के लिए sophistication जरूरी नहीं। essential यह है कि flow हो:
+explicit;
+reproducible;
+versioned;
+evaluable;
+comparable.
+यह मौजूद हो तो scale किया जा सकता है। इससे पहले सब maintain करना difficult है।
+Prompts को system तोड़े बिना iterate करने के criteria
+prompt improve करते समय blind edit करना ठीक नहीं। short और disciplined cycle बेहतर है।
+Iteration checklist
+exact problem define करो;
+representative fixture चुनो;
+improvement hypothesis लिखो;
+one thing at a time बदलो;
+
+## Page 76
+
+harness run करो;
+baseline से compare करो;
+new failures review करो;
+change accept करो या revert करो;
+decision document करो।
+Practical rules
+1. same iteration में format improvements और policy changes mix मत करो।
+2. change justify करने के लिए सिर्फ एक happy example use मत करो।
+3. regressions देखे बिना victory declare मत करो।
+4. version और reason के बिना नया prompt save मत करो।
+5. यदि critical business logic code में बेहतर रह सकती है, तो उसे सिर्फ prompt में मत डालो।
+Logic को prompt से बाहर कब ले जाना चाहिए
+prompt को सब कुछ carry नहीं करना चाहिए। यदि कोई rule strict, verifiable और business-central है, तो अक्सर उसे model के बाहर code करना better है।
+Examples:
+schema validation;
+permission rules;
+deterministic routing;
+sensitive data filtering;
+format normalization;
+metric calculation.
+prompt वही करे जिसमें वह best है: interpret करना, prioritize करना, draft करना, synthesize करना और context के साथ decide करना। code वही करे जिसमें वह best है: validate, control और deterministic execution।
+Maturity signals
+आप "loose prompt" से "system" में तब आते हैं जब बिना improvisation इन questions का जवाब दे सकें:
+production में कौन-सा prompt version है?
+किस fixtures से validate होता है?
+rubric कौन-से criteria define करती है?
+baseline से क्या बदला?
+कौन-सी actions allowed हैं?
+logs में क्या recorded है?
+कौन-सी regressions tolerated हैं और कौन-सी नहीं?
+
+## Page 77
+
+यदि ये answers scattered हैं, तो system अभी भी human memory पर बहुत depend करता है।
+Operational summary
+Prompt engineering सिर्फ बेहतर wording नहीं है। यह ऐसी instruction interface design करना है जो time के साथ sustainable रहे। Harness engineering वह support है जो इस sustainability को possible बनाता है: fixtures load करना, versions execute करना, results evaluate करना, evidence record करना और system को accidental changes से protect करना।
+Practical boundary:
+Decision
+Lives better in
+Example
+Tone, role, format और soft criteria
+Prompt
+"clear Hindi में prioritized findings के साथ answer करो"
+Deterministic rules, permissions और hard validations
+Code
+"limit > 50 reject करो"
+Test cases, comparison और evidence
+Harness
+fixtures, scoring, reports और baseline
+Product या risk decisions
+Human evaluation
+trade-off accept करना, rollback मांगना, scope change करना
+यदि कोई चीज हमेशा satisfy होनी चाहिए, तो उसे prompt की सिर्फ एक line पर depend नहीं करना चाहिए। उसे code, test, harness या explicit human review से validate होना चाहिए।
+Practical discipline एक simple formula में रहती है:
+persistent instructions को task prompts से अलग करना;
+real और representative fixtures use करना;
+golden tests और rubrics से expectations fix करना;
+changes publish करने से पहले regression tests run करना;
+permissions और sensitive actions control करना;
+production में क्या होता है observe करना;
+हर important चीज version करना।
+जब यह मौजूद होता है, prompt bet नहीं रहता। वह engineering piece बन जाता है।
+Final checklist
+ system की persistent instruction define करो।
+ task prompt को dynamic context से अलग करो।
+ happy, ambiguous और dangerous cases के लिए fixtures बनाओ।
+ हर critical behavior के लिए कम से कम एक golden test लिखो।
+
+## Page 78
+
+ simple और repeatable rubric design करो।
+ run , eval और report वाली harness CLI implement करो।
+ prompts, model और configuration का versioning save करो।
+ हर execution पर logs और latency record करो।
+ permissions, fallbacks और no-tools cases test करो।
+ हर change को baseline से compare करो।
+ change और rollback decisions document करो।
+यह set promising idea को productive, auditable और maintainable capability में बदलने के लिए काफी है।
+
+## Page 79
+
+खंड 06
+Examples और Use Cases
+real repository में आधुनिक BIBLIA apply करने के लिए complete scaffolding
+इस खंड के अंत तक आपके पास real repository में पूरी आधुनिक BIBLIA apply करने के लिए complete scaffolding होगा।
+
+## Page 80
+
+यह खंड एक complete case के साथ explanation close करता है। इस example की cutoff date 15/05/2026 है। idea decorative mockup दिखाना नहीं है, बल्कि functional scaffolding दिखाना है जिसे कोई person copy, adapt और use कर सके: AI, SDD, subagents, reusable prompts, local validation, CI और harness वाले repository के लिए।
+chosen system जानबूझकर छोटा है: agentic-notes नाम की notes CLI। यह notes add करने, recent notes list करने और text search करने देती है। domain simple है, लेकिन work structure robust है। इससे साफ दिखता है कि कौन-सी चीज किस file में रहती है और pieces कैसे connect होते हैं।
+Final structure
+agentic-notes/
+  AGENTS.md
+  README.md
+  package.json
+  init.sh
+  src/
+    cli.mjs
+    store.mjs
+  test/
+    notes.test.mjs
+  scripts/
+    validate-sdd.mjs
+  harness/
+    fixtures/
+      recent.jsonl
+    evals/
+      rubric.md
+    run-eval.mjs
+  .github/
+    copilot-instructions.md
+    instructions/
+      tests.instructions.md
+    prompts/
+      plan-feature.prompt.md
+      review-pr.prompt.md
+    workflows/
+      ci.yml
+    orquestador/
+      context/
+        product.md
+        architecture.md
+      sdd/
+        requirements/
+          recent-notes.md
+        specs/
+          recent-notes.md
+        tasks/
+          recent-notes.md
+        acceptance/
+          recent-notes.md
+
+## Page 81
+
+        traces/
+          recent-notes.md
+        evaluations/
+          recent-notes.md
+        progress/
+          current.md
+          history.md
+      pipelines/
+        catalog.md
+README.md
+# Agentic Notes
+local notes manage करने और AI, SDD, subagents और harness workflow demonstrate करने वाली minimal CLI।
+## Commands
+```bash
+npm test
+npm run validate:sdd
+npm run check
+node src/cli.mjs add "AGENTS.md investigate करना"
+node src/cli.mjs recent --limit 5
+node src/cli.mjs search AGENTS
+```
+## Workflow
+1. requirement `.github/orquestador/sdd/requirements/` में रहता है।
+2. verifiable spec `.github/orquestador/sdd/specs/` में रहती है।
+3. tasks `.github/orquestador/sdd/tasks/` में रहती हैं।
+4. traceability `.github/orquestador/sdd/traces/` में रहती है।
+5. operational state `.github/orquestador/sdd/progress/` में रहता है।
+6. closure `./init.sh` या `npm run check` से validate होता है।
+package.json
+{
+  "name": "agentic-notes",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "validate:sdd": "node scripts/validate-sdd.mjs",
+
+## Page 82
+
+    "eval": "node harness/run-eval.mjs",
+    "check": "npm test && npm run validate:sdd && npm run eval"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+AGENTS.md
+# AGENTS.md
+यह repository AI का उपयोग central rule के साथ करती है: कोई important change spec, evidence और traceability के बिना close नहीं होता।
+## Initial reading
+1. `README.md` पढ़ो।
+2. `.github/orquestador/context/product.md` पढ़ो।
+3. `.github/orquestador/context/architecture.md` पढ़ो।
+4. यदि task behavior touch करती है, तो `.github/orquestador/sdd/specs/` में corresponding spec पढ़ो।
+5. act करने से पहले `.github/orquestador/sdd/progress/current.md` review करो।
+## Roles
+- `explorer`: investigation करता है और evidence के साथ findings देता है। files modify नहीं करता।
+- `spec_author`: idea को requirements, spec और tasks में बदलता है। implement नहीं करता।
+- `implementer`: केवल explicit ownership के भीतर files modify करता है।
+- `reviewer`: diff, tests और trace review करता है। review करते समय fix नहीं करता।
+## Closure rules
+- `npm run check` execute करो।
+- requirements, tasks या tests बदलें तो trace update करो।
+- `.github/orquestador/sdd/progress/history.md` में evidence record करो।
+- यदि `init.sh` या `npm run check` fail हो, तो `done` declare मत करो।
+init.sh
+#!/usr/bin/env sh
+set -eu
+command -v node >/dev/null 2>&1 || {
+  echo "Node.js उपलब्ध नहीं है"
+  exit 2
+}
+
+## Page 83
+
+npm test || exit 1
+npm run validate:sdd || exit 3
+npm run eval || exit 1
+src/store.mjs
+import fs from "node:fs";
+import path from "node:path";
+const dataDir = path.resolve(".data");
+const dataFile = path.join(dataDir, "notes.json");
+export function readNotes() {
+  if (!fs.existsSync(dataFile)) return [];
+  return JSON.parse(fs.readFileSync(dataFile, "utf8"));
+}
+export function writeNotes(notes) {
+  fs.mkdirSync(dataDir, { recursive: true });
+  fs.writeFileSync(dataFile, JSON.stringify(notes, null, 2) + "\n", "utf8");
+}
+export function addNote(title) {
+  if (!title || !title.trim()) {
+    throw new Error("नोट का शीर्षक अनिवार्य है");
+  }
+  const notes = readNotes();
+  const now = new Date().toISOString();
+  const note = {
+    id: `note-${notes.length + 1}`,
+    title: title.trim(),
+    created_at: now,
+    updated_at: now
+  };
+  notes.push(note);
+  writeNotes(notes);
+  return note;
+}
+export function recentNotes(limit = 10) {
+  const parsedLimit = Number(limit);
+  if (!Number.isInteger(parsedLimit) || parsedLimit < 1 || parsedLimit > 50) {
+    throw new Error("limit 1 और 50 के बीच integer होना चाहिए");
+  }
+  return readNotes()
+
+## Page 84
+
+    .toSorted((a, b) => b.updated_at.localeCompare(a.updated_at))
+    .slice(0, parsedLimit);
+}
+export function searchNotes(query) {
+  const normalized = String(query || "").trim().toLowerCase();
+  if (!normalized) return [];
+  return readNotes().filter((note) =>
+    note.title.toLowerCase().includes(normalized)
+  );
+}
+src/cli.mjs
+#!/usr/bin/env node
+import { addNote, recentNotes, searchNotes } from "./store.mjs";
+const [, , command, ...args] = process.argv;
+function getOption(name, fallback) {
+  const index = args.indexOf(name);
+  if (index === -1) return fallback;
+  return args[index + 1] ?? fallback;
+}
+function printNotes(notes) {
+  if (notes.length === 0) {
+    console.log("दिखाने के लिए कोई notes नहीं हैं।");
+    return;
+  }
+  for (const note of notes) {
+    console.log(`${note.id} | ${note.updated_at} | ${note.title}`);
+  }
+}
+try {
+  if (command === "add") {
+    const note = addNote(args.join(" "));
+    console.log(`Note created: ${note.id}`);
+  } else if (command === "recent") {
+    printNotes(recentNotes(getOption("--limit", 10)));
+  } else if (command === "search") {
+    printNotes(searchNotes(args.join(" ")));
+  } else {
+    console.log("Usage: notes add <title> | recent [--limit n] | search <text>");
+    process.exitCode = 2;
+  }
+} catch (error) {
+
+## Page 85
+
+  console.error(error.message);
+  process.exitCode = 1;
+}
+test/notes.test.mjs
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import test from "node:test";
+import { addNote, recentNotes, searchNotes } from "../src/store.mjs";
+test.beforeEach(() => {
+  fs.rmSync(".data", { recursive: true, force: true });
+});
+test("recent default रूप से 10 notes दिखाता है", () => {
+  for (let index = 1; index <= 12; index += 1) {
+    addNote(`Note ${index}`);
+  }
+  assert.equal(recentNotes().length, 10);
+});
+test("recent --limit respect करता है", () => {
+  for (let index = 1; index <= 8; index += 1) {
+    addNote(`Note ${index}`);
+  }
+  assert.equal(recentNotes(5).length, 5);
+});
+test("recent invalid limits reject करता है", () => {
+  assert.throws(() => recentNotes(0), /1 और 50/);
+  assert.throws(() => recentNotes(99), /1 और 50/);
+});
+test("search title से notes खोजता है", () => {
+  addNote("AGENTS.md investigate करना");
+  addNote("runbook prepare करना");
+  assert.equal(searchNotes("agents").length, 1);
+});
+
+## Page 86
+
+scripts/validate-sdd.mjs
+import fs from "node:fs";
+const requiredFiles = [
+  ".github/orquestador/context/product.md",
+  ".github/orquestador/context/architecture.md",
+  ".github/orquestador/sdd/requirements/recent-notes.md",
+  ".github/orquestador/sdd/specs/recent-notes.md",
+  ".github/orquestador/sdd/tasks/recent-notes.md",
+  ".github/orquestador/sdd/acceptance/recent-notes.md",
+  ".github/orquestador/sdd/traces/recent-notes.md"
+];
+let failed = false;
+for (const file of requiredFiles) {
+  if (!fs.existsSync(file)) {
+    console.error(`SDD file missing: ${file}`);
+    failed = true;
+  }
+}
+const trace = fs.existsSync(".github/orquestador/sdd/traces/recent-notes.md")
+  ? fs.readFileSync(".github/orquestador/sdd/traces/recent-notes.md", "utf8")
+  : "";
+for (const requirement of ["R1", "R2", "R3"]) {
+  if (!trace.includes(requirement)) {
+    console.error(`Trace incomplete: ${requirement} missing`);
+    failed = true;
+  }
+}
+process.exit(failed ? 3 : 0);
+.github/orquestador/context/product.md
+# Product
+Agentic Notes local notes create और query करने वाली CLI है। इसका goal full notes app से compete करना नहीं, बल्कि AI-assisted work के लिए robust base demonstrate करना है।
+## Users
+- Developers जिन्हें quick ideas record करनी हैं।
+- Teams जो SDD और traceability practice करना चाहती हैं।
+- लोग जिन्हें minimal लेकिन functional example चाहिए।
+
+## Page 87
+
+## Non-goals
+- cloud sync नहीं।
+- web UI नहीं।
+- authentication नहीं।
+.github/orquestador/context/architecture.md
+# Architecture
+application Node.js ESM और local JSON storage use करती है।
+## Components
+- `src/cli.mjs`: command boundary.
+- `src/store.mjs`: domain rules और persistence.
+- `test/notes.test.mjs`: behavior coverage.
+- `scripts/validate-sdd.mjs`: local SDD structure gate.
+- `harness/run-eval.mjs`: fixtures द्वारा minimal evaluation.
+## Rule
+CLI arguments parse कर सकती है, लेकिन business rules `store.mjs` में रहती हैं।
+SDD: requirements
+# Requirements: recent notes
+## R1
+system default रूप से 10 most recent notes दिखाए।
+## R2
+user `--limit` से limit बदल सके, 1 और 50 के बीच।
+## R3
+यदि notes नहीं हैं, तो system fail हुए बिना neutral message लौटाए।
+
+## Page 88
+
+SDD: spec
+# Spec: recent notes
+Command:
+```bash
+node src/cli.mjs recent --limit 5
+```
+## Rules
+- `updated_at` descending order में sort करना।
+- यदि `--limit` न मिले तो limit 10 use करना।
+- 1 से कम या 50 से अधिक limits reject करना।
+- notes न हों तो `दिखाने के लिए कोई notes नहीं हैं।` दिखाना।
+SDD: tasks
+# Tasks: recent notes
+- [x] T1 -> R1: descending order और default limit implement करना।
+- [x] T2 -> R2: `--limit` parse और validate करना।
+- [x] T3 -> R3: no-notes state cover करना।
+- [x] T4 -> R1/R2/R3: tests add करना।
+- [x] T5 -> R1/R2/R3: trace update करना।
+SDD: acceptance
+# Acceptance: recent notes
+- A1: 12 notes के साथ, `recent` 10 दिखाता है।
+- A2: `--limit 5` के साथ, `recent` 5 दिखाता है।
+- A3: `--limit 0` के साथ command clear message से fail होती है।
+- A4: बिना notes के command neutral message दिखाती है।
+SDD: traces
+# Trace: recent notes
+| Requirement | Task | Test | Evidence |
+| --- | --- | --- | --- |
+| R1 | T1, T4 | `recent default रूप से 10 notes दिखाता है` | `npm test` |
+
+## Page 89
+
+| R2 | T2, T4 | `recent --limit respect करता है` | `npm test` |
+| R2 | T2, T4 | `recent invalid limits reject करता है` | `npm test` |
+| R3 | T3, T4 | `printNotes` empty output | `npm test` + CLI review |
+Harness
+harness/fixtures/recent.jsonl
+{"id":"recent-default","command":"recent","expected":"default 10 notes"}
+{"id":"recent-limit","command":"recent --limit 5","expected":"5 notes"}
+{"id":"recent-empty","command":"recent","expected":"neutral message if there are no notes"}
+harness/evals/rubric.md
+# Rubric
+- Fidelity: R1, R2 और R3 satisfy करता है।
+- Safety: `.data/` के बाहर नहीं लिखता।
+- Clarity: actionable message वाले errors।
+- Maintainability: rules `store.mjs` में, CLI `cli.mjs` में।
+Minimum acceptable result: कोई critical dimension red नहीं।
+harness/run-eval.mjs
+import fs from "node:fs";
+const fixtures = fs
+  .readFileSync("harness/fixtures/recent.jsonl", "utf8")
+  .trim()
+  .split("\n")
+  .map((line) => JSON.parse(line));
+for (const fixture of fixtures) {
+  if (!fixture.id || !fixture.command || !fixture.expected) {
+    console.error(`Invalid fixture: ${JSON.stringify(fixture)}`);
+    process.exit(1);
+  }
+}
+console.log(`Valid fixtures: ${fixtures.length}`);
+Reusable prompts
+.github/prompts/plan-feature.prompt.md
+
+## Page 90
+
+---
+agent: 'agent'
+description: "idea को SDD spec में बदलना"
+---
+`.github/orquestador/context/` से context use करो।
+Input:
+${input:feature:Feature describe करें}
+Produce:
+1. problem;
+2. non-goals;
+3. requirements R1..Rn;
+4. verifiable spec;
+5. tasks by slices;
+6. suggested tests;
+7. risks.
+Implement मत करो।
+.github/prompts/review-pr.prompt.md
+---
+agent: 'agent'
+description: "behavior और traceability focus के साथ PR review करना"
+---
+diff, tests और SDD review करो।
+Priority:
+1. bugs;
+2. regressions;
+3. permissions;
+4. requirements without test;
+5. tests without requirement.
+Output:
+- findings with file;
+- open questions;
+- decision: approve, block या request changes.
+GitHub Actions
+.github/workflows/ci.yml
+name: ci
+
+## Page 91
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run check
+Progress
+.github/orquestador/sdd/progress/current.md
+# Current
+Active feature: recent notes
+State: implemented
+Blocks: none
+Next step: human review और closure.
+.github/orquestador/sdd/progress/history.md
+# History
+## recent notes
+- Requirements R1, R2 और R3 covered हैं।
+- Tests `npm test` से executed।
+- SDD `npm run validate:sdd` से validated।
+- Harness `npm run eval` से validated।
+आधुनिक BIBLIA का closure
+आधुनिक BIBLIA ज्यादा AI use करने के लिए ज्यादा AI propose नहीं करती। यह बेहतर work propose करती है: clear intent, useful context, verifiable specifications, अच्छी तरह scoped subagents, reusable prompts, measurable harnesses और closure evidence के साथ।
+
+## Page 92
+
+यदि कोई person repository open कर सके, उसके rules पढ़ सके, contract समझ सके, validation execute कर सके और खो चुकी conversation पर depend किए बिना work continue कर सके, तो system mature होना शुरू हो चुका है।
+final goal यही है: artificial intelligence brilliant improvisation नहीं, बल्कि engineering capability बने।

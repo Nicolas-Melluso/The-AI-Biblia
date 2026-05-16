@@ -2,7 +2,7 @@
 language: en
 language_name: English
 source_pdf: "The modern biblia.pdf"
-page_count: 66
+page_count: 92
 generated_from_pdf: true
 ---
 
@@ -27,7 +27,7 @@ nicolas.e.melluso@gmail.com
 linkedin.com/in/nicolas-ezequiel-melluso
 github.com/Nicolas-Melluso
 BIBLIA - Nicolás Ezequiel Melluso
-1/66
+1/92
 
 ## Page 2
 
@@ -48,8 +48,14 @@ How to build a repository prepared for agents, SDD, Copilot, workflows, and reus
 05
 Prompt Engineering and Harness Engineering
 From loose prompts to versioned, evaluable, and production-grade systems
+06
+Examples and Use Cases
+Complete scaffolding to apply The modern biblia in a real repository
+PRACTICAL ROUTE
+If you already have a repository in progress, start with Volumes 03, 04, and 05. If you are building criteria from
+scratch, read 01 and 02 first. To copy a complete base, finish with Volume 06.
 BIBLIA - Nicolás Ezequiel Melluso
-2/66
+2/92
 
 ## Page 3
 
@@ -58,8 +64,9 @@ Modern Use of Artificial
 Intelligence
 How to move from chatting with a model to working with a system of
 thinking, execution, and verification
+By the end of this volume, you can distinguish using AI as chat from using AI as a work system.
 BIBLIA - Nicolás Ezequiel Melluso
-3/66
+3/92
 
 ## Page 4
 
@@ -96,7 +103,7 @@ better every week."
 The recommended work cycle
 A robust AI flow can look like this:
 BIBLIA - Nicolás Ezequiel Melluso
-4/66
+4/92
 
 ## Page 5
 
@@ -129,7 +136,7 @@ The minimum unit of context
 AI works better when it receives packaged context, not a cloud of information. The minimum unit of context for a
 serious task should include:
 BIBLIA - Nicolás Ezequiel Melluso
-5/66
+5/92
 
 ## Page 6
 
@@ -179,7 +186,7 @@ The modern prompt
 A modern prompt has the shape of an operational brief. It does not need to be poetic or huge. It needs to remove
 ambiguity.
 BIBLIA - Nicolás Ezequiel Melluso
-6/66
+6/92
 
 ## Page 7
 
@@ -213,7 +220,7 @@ itself, versions poorly, is not reviewed in PR, and does not run in CI. The repo
 instructions, specs, decisions, prompts, tests, and workflows.
 A modern organization usually separates:
 BIBLIA - Nicolás Ezequiel Melluso
-7/66
+7/92
 
 ## Page 8
 
@@ -273,7 +280,7 @@ Subagents formalize that separation, but the mental model is useful even with a 
 tries to do everything at the same time, it becomes confusing. When each role has a concrete output, work
 becomes controllable.
 BIBLIA - Nicolás Ezequiel Melluso
-8/66
+8/92
 
 ## Page 9
 
@@ -308,7 +315,7 @@ Examples of bad memory:
 - Use good practices.
 Modern memory does not store feelings. It stores operations.
 BIBLIA - Nicolás Ezequiel Melluso
-9/66
+9/92
 
 ## Page 10
 
@@ -346,7 +353,7 @@ Deliverables:
 2. Input fixtures.
 3. Evaluation rubric.
 BIBLIA - Nicolás Ezequiel Melluso
-10/66
+10/92
 
 ## Page 11
 
@@ -393,7 +400,7 @@ At close:
 4. I know which risks remain.
 5. Reusable knowledge ended up in files.
 BIBLIA - Nicolás Ezequiel Melluso
-11/66
+11/92
 
 ## Page 12
 
@@ -403,7 +410,7 @@ one who knows the secret prompt trick, but the one who knows how to turn ambiguo
 The final rule is simple: if the output matters, treat AI as part of a production system. Give it context, limits, tools,
 tests, and memory. Everything else is just chat.
 BIBLIA - Nicolás Ezequiel Melluso
-12/66
+12/92
 
 ## Page 13
 
@@ -411,7 +418,7 @@ VOLUME 02
 Intelligent Use of Subagents
 Criteria, patterns, and operational closure for better delegation
 BIBLIA - Nicolás Ezequiel Melluso
-13/66
+13/92
 
 ## Page 14
 
@@ -450,7 +457,7 @@ Bad delegation examples:
 “Jump into the repo and improve whatever you see.”
 “Make product decisions without acceptance criteria.”
 BIBLIA - Nicolás Ezequiel Melluso
-14/66
+14/92
 
 ## Page 15
 
@@ -487,7 +494,7 @@ Testing a hypothesis in a working branch or on a subset of files.
 Preparing fixtures or test data.
 What you ask from it:
 BIBLIA - Nicolás Ezequiel Melluso
-15/66
+15/92
 
 ## Page 16
 
@@ -525,7 +532,7 @@ What to avoid
 Long stories with no operational relevance.
 Contradictory opinions.
 BIBLIA - Nicolás Ezequiel Melluso
-16/66
+16/92
 
 ## Page 17
 
@@ -561,7 +568,7 @@ There are three useful levels:
 Exploration parallelism
 Several explorers search for different information in parallel.
 BIBLIA - Nicolás Ezequiel Melluso
-17/66
+17/92
 
 ## Page 18
 
@@ -597,7 +604,7 @@ Parallelizing is not a goal in itself. It is a tool when independence truly exis
 Anti-patterns
 Anti-patterns often look like productivity at first and like operational debt later.
 BIBLIA - Nicolás Ezequiel Melluso
-18/66
+18/92
 
 ## Page 19
 
@@ -631,7 +638,7 @@ Mechanical tasks
 Examples: file inspection, search, pattern extraction, simple validations, formatting.
 Suggested model: a lightweight or fast one.
 BIBLIA - Nicolás Ezequiel Melluso
-19/66
+19/92
 
 ## Page 20
 
@@ -665,7 +672,7 @@ Effort should not be “always high.” It should follow risk and ambiguity.
 Delegation prompt examples
 The best subagent prompts do not look like open requests. They look like well-written tickets.
 BIBLIA - Nicolás Ezequiel Melluso
-20/66
+20/92
 
 ## Page 21
 
@@ -702,7 +709,7 @@ Scope: read the patch and touched files.
 Deliverable: concrete findings, open questions, and validation suggestions.
 Do not modify files.
 BIBLIA - Nicolás Ezequiel Melluso
-21/66
+21/92
 
 ## Page 22
 
@@ -739,7 +746,7 @@ A robust workflow for subagents usually looks like this:
 7. Verify closure with evidence.
 If the task is large, this flow can be repeated in layers: explorers first, then workers, then independent review.
 BIBLIA - Nicolás Ezequiel Melluso
-22/66
+22/92
 
 ## Page 23
 
@@ -764,7 +771,7 @@ work so they do not collide. And if you cannot define clear ownership, it is sti
 The best practice is not “making AI work alone.” It is building a work chain where each piece has a bounded role, a
 checkable output, and explicit closure. That is when subagents stop being a promise and become a truly useful tool.
 BIBLIA - Nicolás Ezequiel Melluso
-23/66
+23/92
 
 ## Page 24
 
@@ -772,7 +779,7 @@ VOLUME 03
 SDD and Support Structure
 Specification-Driven Development applied to AI-enabled repositories
 BIBLIA - Nicolás Ezequiel Melluso
-24/66
+24/92
 
 ## Page 25
 
@@ -812,7 +819,7 @@ The decision explains the trade-off.
 The task organizes work.
 Acceptance closes scope.
 BIBLIA - Nicolás Ezequiel Melluso
-25/66
+25/92
 
 ## Page 26
 
@@ -856,7 +863,7 @@ examples/
 sample-issue.md
 sample-spec.md
 BIBLIA - Nicolás Ezequiel Melluso
-26/66
+26/92
 
 ## Page 27
 
@@ -892,7 +899,7 @@ what constraints exist;
 what signals would indicate success.
 Brief example:
 BIBLIA - Nicolás Ezequiel Melluso
-27/66
+27/92
 
 ## Page 28
 
@@ -928,7 +935,7 @@ date;
 author or team.
 Decision example:
 BIBLIA - Nicolás Ezequiel Melluso
-28/66
+28/92
 
 ## Page 29
 
@@ -965,7 +972,7 @@ coverage summary;
 references to commits, issues, or PRs;
 notes on what was left out.
 BIBLIA - Nicolás Ezequiel Melluso
-29/66
+29/92
 
 ## Page 30
 
@@ -1001,7 +1008,7 @@ sample checklist.
 Work cycle for an issue or feature
 A healthy SDD flow does not start in the PR. It starts earlier, when changing direction is still cheap.
 BIBLIA - Nicolás Ezequiel Melluso
-30/66
+30/92
 
 ## Page 31
 
@@ -1039,7 +1046,7 @@ An example of a full cycle:
 7. TRACE-014 links issue, PR, and tests.
 8. EVAL-014 summarizes the result and open points.
 BIBLIA - Nicolás Ezequiel Melluso
-31/66
+31/92
 
 ## Page 32
 
@@ -1072,7 +1079,7 @@ Likely files:
 Dependencies:
 How it is validated:
 BIBLIA - Nicolás Ezequiel Melluso
-32/66
+32/92
 
 ## Page 33
 
@@ -1106,7 +1113,7 @@ How to use SDD with AI
 AI changes the value of documentation. Before, a spec mostly served humans. Now it also serves as a context
 contract for assistants.
 BIBLIA - Nicolás Ezequiel Melluso
-33/66
+33/92
 
 ## Page 34
 
@@ -1142,7 +1149,7 @@ Empty traces
 It is not enough to say “it is in the PR.” If you cannot follow the thread back to the original requirement, traceability
 does not exist.
 BIBLIA - Nicolás Ezequiel Melluso
-34/66
+34/92
 
 ## Page 35
 
@@ -1179,7 +1186,7 @@ more because the cost of ambiguity multiplies.
 The .github/orquestador/sdd structure proposes something simple: separate the right pieces so each one
 fulfills its function and all together form a readable system. Requirements, specs, decisions, tasks, acceptance
 BIBLIA - Nicolás Ezequiel Melluso
-35/66
+35/92
 
 ## Page 36
 
@@ -1188,7 +1195,7 @@ idea to move from problem to implementation without losing context along the way
 If the repository adopts this way of working, each feature stops being a leap of faith. It becomes a traceable,
 reviewable, and improvable process. And that, in an AI-assisted stack, is worth more than any improvised shortcut.
 BIBLIA - Nicolás Ezequiel Melluso
-36/66
+36/92
 
 ## Page 37
 
@@ -1198,7 +1205,7 @@ Style Commands
 How to build a repository prepared for agents, SDD, Copilot, workflows, and
 reusable prompts
 BIBLIA - Nicolás Ezequiel Melluso
-37/66
+37/92
 
 ## Page 38
 
@@ -1254,7 +1261,7 @@ owners
 GitHub Actions
 Real automation: CI, reviewers, validations
 BIBLIA - Nicolás Ezequiel Melluso
-38/66
+38/92
 
 ## Page 39
 
@@ -1263,7 +1270,7 @@ A prompt guides. An AGENTS.md governs agent behavior. Keeping this separation av
 Recommended structure
 A reasonable base for a repo that wants to work with AI, SDD, and GitHub-first:
 BIBLIA - Nicolás Ezequiel Melluso
-39/66
+39/92
 
 ## Page 40
 
@@ -1314,7 +1321,7 @@ Not all projects need everything from day one. But it helps for the mental archi
 with AGENTS.md , context/product.md , sdd/specs/ , prompts/ , and workflows/ci.yml . The rest is added
 when real repetition appears.
 BIBLIA - Nicolás Ezequiel Melluso
-40/66
+40/92
 
 ## Page 41
 
@@ -1331,7 +1338,7 @@ It must answer:
 7. How to close a task.
 Base example:
 BIBLIA - Nicolás Ezequiel Melluso
-41/66
+41/92
 
 ## Page 42
 
@@ -1369,7 +1376,7 @@ Instructions have precedence. An explicit user request has more weight than a ge
 AGENTS.md in a subfolder can specialize rules from the root AGENTS.md . System or platform instructions have
 priority over everything else.
 BIBLIA - Nicolás Ezequiel Melluso
-42/66
+42/92
 
 ## Page 43
 
@@ -1400,7 +1407,7 @@ Path-based instructions let you say: "when you work in this area of the repo, ap
 the NAME.instructions.md pattern inside .github/instructions , with applyTo frontmatter.
 Backend example:
 BIBLIA - Nicolás Ezequiel Melluso
-43/66
+43/92
 
 ## Page 44
 
@@ -1431,7 +1438,7 @@ Treat them as versioned commands. If a prompt improves, review it in a PR. If it
 useful, remove it.
 Example plan-feature.prompt.md :
 BIBLIA - Nicolás Ezequiel Melluso
-44/66
+44/92
 
 ## Page 45
 
@@ -1470,7 +1477,7 @@ Salida:
 No hagas comentarios de estilo si no afectan mantenimiento o comportamiento.
 Example qa-harness.prompt.md :
 BIBLIA - Nicolás Ezequiel Melluso
-45/66
+45/92
 
 ## Page 46
 
@@ -1508,7 +1515,7 @@ prevents the agent from implementing a creative interpretation of the request.
 A minimal spec should include:
 1. Problem.
 BIBLIA - Nicolás Ezequiel Melluso
-46/66
+46/92
 
 ## Page 47
 
@@ -1543,7 +1550,7 @@ automation layer. Everything else can document, guide, or govern. This separatio
 automations and uncertainty about where execution really happens.
 Conservative starter pattern:
 BIBLIA - Nicolás Ezequiel Melluso
-47/66
+47/92
 
 ## Page 48
 
@@ -1586,7 +1593,7 @@ The catalog does not execute. It documents. It should answer:
 1. Which workflow exists.
 2. Which event triggers it.
 BIBLIA - Nicolás Ezequiel Melluso
-48/66
+48/92
 
 ## Page 49
 
@@ -1623,7 +1630,7 @@ A complete flow could be:
 What is valuable is that each step leaves traces. The team does not depend on remembering what was discussed in
 a chat.
 BIBLIA - Nicolás Ezequiel Melluso
-49/66
+49/92
 
 ## Page 50
 
@@ -1670,7 +1677,7 @@ GitHub Docs - Prompt files
 GitHub Docs - Your first prompt file
 openai/agents.md
 BIBLIA - Nicolás Ezequiel Melluso
-50/66
+50/92
 
 ## Page 51
 
@@ -1683,7 +1690,7 @@ and technical contract. Prompt files turn repeated tasks into commands. Workflow
 explains the system.
 When those pieces are aligned, AI stops being a loose chat and starts being work infrastructure.
 BIBLIA - Nicolás Ezequiel Melluso
-51/66
+51/92
 
 ## Page 52
 
@@ -1692,7 +1699,7 @@ Prompt Engineering and Harness
 Engineering
 From loose prompts to versioned, evaluable, and production-grade systems
 BIBLIA - Nicolás Ezequiel Melluso
-52/66
+52/92
 
 ## Page 53
 
@@ -1730,7 +1737,7 @@ logging and observability to review results in context.
 These are not decorative layers. They are the minimum infrastructure required to trust an assistant, a classifier, a
 writer, a router, or an agent.
 BIBLIA - Nicolás Ezequiel Melluso
-53/66
+53/92
 
 ## Page 54
 
@@ -1763,7 +1770,7 @@ without confirmation.
 5. Uncertainty policy
 A mature prompt indicates what to do when context is missing. That reduces hallucinations and shaky responses.
 BIBLIA - Nicolás Ezequiel Melluso
-54/66
+54/92
 
 ## Page 55
 
@@ -1797,7 +1804,7 @@ style. You prioritize precision, safety, and actionable steps.
 Task prompts
 These are point instructions for a specific execution. They should be brief, specific, and focused on the result.
 BIBLIA - Nicolás Ezequiel Melluso
-55/66
+55/92
 
 ## Page 56
 
@@ -1835,7 +1842,7 @@ stable;
 reproducible;
 readable;
 BIBLIA - Nicolás Ezequiel Melluso
-56/66
+56/92
 
 ## Page 57
 
@@ -1871,7 +1878,7 @@ Harness CLI: run, compare, repeat
 The harness is the environment that runs prompts with fixtures, logs results, and compares them against a
 reference. A well-designed CLI makes all of that repeatable from terminal and CI.
 BIBLIA - Nicolás Ezequiel Melluso
-57/66
+57/92
 
 ## Page 58
 
@@ -1913,7 +1920,7 @@ What the CLI should do
 A useful CLI does not only call the model. It also:
 validates that files exist;
 BIBLIA - Nicolás Ezequiel Melluso
-58/66
+58/92
 
 ## Page 59
 
@@ -1943,7 +1950,7 @@ Score 0-2 per dimension:
 1 = partial
 2 = meets criteria
 BIBLIA - Nicolás Ezequiel Melluso
-59/66
+59/92
 
 ## Page 60
 
@@ -1984,7 +1991,7 @@ language changes;
 JSON format breaks a parser;
 a tool is invoked when it should not be.
 BIBLIA - Nicolás Ezequiel Melluso
-60/66
+60/92
 
 ## Page 61
 
@@ -2018,7 +2025,7 @@ Example:
 Do not assume you have access to external systems. If an impactful action is needed, describe it and
 request confirmation.
 BIBLIA - Nicolás Ezequiel Melluso
-61/66
+61/92
 
 ## Page 62
 
@@ -2057,7 +2064,7 @@ Log example
 "outcome": "needs_review"
 }
 BIBLIA - Nicolás Ezequiel Melluso
-62/66
+62/92
 
 ## Page 63
 
@@ -2095,10 +2102,452 @@ const score = evaluate(output, fixture.expected_traits)
 saveRun({ fixtureId: fixture.id, output, score })
 }
 BIBLIA - Nicolás Ezequiel Melluso
-63/66
+63/92
 
 ## Page 64
 
+Practical rule
+If an instruction repeats in every case, it probably belongs in the persistent layer. If it changes with each
+execution, it belongs in the task layer. If it lives in the user's input, do not mix it with policy. Separating these
+things reduces errors and makes the system maintainable.
+Fixtures: concrete cases for testing behavior
+A fixture is a controlled input case that represents a realistic situation. In prompt engineering, fixtures are essential
+because they make it possible to verify whether the system responds well to typical, rare, or dangerous scenarios.
+One happy-path example is not enough. A serious harness needs fixtures that cover:
+clean inputs;
+incomplete inputs;
+contradictory inputs;
+noisy inputs;
+ambiguous requests;
+attempts to force an unsafe output;
+format edge cases.
+Fixture example
+{
+  "id": "ticket-001",
+  "input": "I need someone to review last month's invoice because I think it is wrong.",
+  "expected_traits": [
+    "asks for clarification if an identifier is missing",
+    "does not invent data",
+    "keeps a professional tone",
+    "proposes the next step"
+  ]
+}
+What makes a fixture good
+A good fixture does not try to "beat" the model with tricks. It describes a useful situation. It must be:
+stable;
+reproducible;
+readable;
+representative;
+easy to extend.
+If the fixture changes all the time, it is useless for comparing versions. If it is too artificial, it does not reflect real
+use. Quality is in the balance.
+BIBLIA - Nicol?s Ezequiel Melluso
+64/92
+
+## Page 65
+
+Golden tests: pinning expected behavior
+Golden tests are tests against an expected output or against very concrete output properties. They help detect
+regressions when the prompt, model, or toolchain changes.
+There are two common forms:
+Exact golden
+Useful when the output must be highly stable, for example a structured format.
+Example:
+{
+  "id": "routing-01",
+  "expected": {
+    "category": "billing",
+    "confidence": "high"
+  }
+}
+Property-based golden
+Useful when you do not want to freeze the full text, but you do want to freeze behavior.
+Example:
+the answer must not invent a fact;
+it must include a warning;
+it must return exactly 3 steps;
+it must use the expected language;
+it must not mention unauthorized tools.
+This second format is more flexible and is often more useful for natural-language systems. The gold is not always
+the exact string; often it is compliance with observable rules.
+Harness CLI: run, compare, repeat
+The harness is the environment that runs prompts with fixtures, records results, and compares them against a
+reference. A well-designed CLI makes all of that repeatable from the terminal and CI.
+A reasonable structure separates:
+prompt definition;
+fixture definition;
+model configuration;
+batch execution;
+evaluation;
+BIBLIA - Nicol?s Ezequiel Melluso
+65/92
+
+## Page 66
+
+reporting;
+result export.
+Possible structure
+prompt-harness/
+  prompts/
+    system.md
+    task.md
+  fixtures/
+    inbox.jsonl
+    safety.jsonl
+    formatting.jsonl
+  evals/
+    rubric.md
+    scoring.ts
+  runs/
+    run-001.jsonl
+  reports/
+    latest.md
+  src/
+    cli.ts
+    harness.ts
+    loader.ts
+    evaluator.ts
+Example commands
+node src/cli.js run --prompt prompts/system.md --fixtures fixtures/inbox.jsonl
+node src/cli.js eval --run runs/latest.jsonl --rubric evals/rubric.md
+node src/cli.js compare --baseline runs/baseline.jsonl --candidate runs/latest.jsonl
+node src/cli.js report --input runs/latest.jsonl --output reports/latest.md
+What the CLI should do
+A useful CLI does not only call the model. It also:
+validates that files exist;
+normalizes inputs;
+records prompt and model versions;
+saves timestamps;
+serializes raw responses;
+calculates metrics;
+emits a clear summary for CI.
+If the harness only prints pretty text, it is a demo. If it also leaves traceability and comparison, it is already
+infrastructure.
+BIBLIA - Nicol?s Ezequiel Melluso
+66/92
+
+## Page 67
+
+`init.sh` as a health contract
+In a development harness, the most important script is not always the most sophisticated one. Many times it is a
+single command:
+`./init.sh`
+That script should answer one simple question: "is this repository ready to continue?" For that, it can:
+1. Validate that dependencies exist.
+2. Run tests.
+3. Run linters or typechecks.
+4. Validate SDD spec structure.
+5. Confirm there is no more than one `feature` in `in_progress`.
+6. Fail if traceability between requirements and tests is missing.
+Operational rule:
+If `./init.sh` is red, the feature cannot be `done`.
+The goal is not to replace CI. The goal is to give the agent a clear local gate. If every closure ends with
+"ran `./init.sh`, green result," the team can review with less ambiguity.
+Recommended minimum contract:
+0 = everything green
+1 = validation or test failure
+2 = local configuration missing
+3 = invalid SDD structure
+4 = insufficient permissions or blocked action
+It is also useful for the script to be idempotent: running it twice should not change the repository or depend on
+invisible state. If it takes too long, split quick checks from heavy suites and document both commands. The
+agent needs a reliable local gate, not an unpredictable ritual.
+Minimum example:
+#!/usr/bin/env sh
+set -eu
+command -v node >/dev/null 2>&1 || exit 2
+npm test || exit 1
+npm run lint || exit 1
+node scripts/validate-sdd.mjs || exit 3
+node scripts/check-permissions.mjs || exit 4
+
+## Page 68
+
+If the team works mainly on Windows, there may be an equivalent `init.ps1` or `node scripts/init.mjs`.
+What matters is that there is a documented, repeatable closure command with clear exit codes.
+Requirement-test traceability
+A serious harness is not satisfied with "there are tests." It needs to know which test covers which requirement.
+Example:
+R1 -> test_recent_default_limit
+R2 -> test_recent_invalid_limit
+R3 -> test_recent_empty_store
+Traceability can live in:
+`specs/<feature>/requirements.md`;
+`specs/<feature>/tasks.md`;
+`progress/review_<feature>.md`;
+a table generated by the harness.
+The reviewer should reject if:
+1. An `R<n>` has no test.
+2. A new test is not linked to any requirement.
+3. A task says it covers a requirement but the test does not prove it.
+4. The code implements behavior that does not appear in the spec.
+This avoids a common trap: adding tests that execute code but do not verify the real contract.
+A useful trace table looks like this:
+Requirement
+Test
+Evidence
+Status
+R1
+test_recent_default_limit
+tests/test_recent.py
+covered
+R2
+test_recent_invalid_limit
+tests/test_recent.py
+covered
+R3
+test_recent_empty_store
+tests/test_recent.py
+covered
+The closure rule is simple: no feature is finished if its trace table has gaps.
+
+## Page 69
+
+Hooks and workflows as guardrails
+If a rule is critical, it should not depend only on the agent remembering to obey it. It should be automated.
+In a Claude-first surface, hooks can run a lightweight check after editing and a full validation before closing:
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run check:quick"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run check:full"
+          }
+        ]
+      }
+    ]
+  }
+}
+In a GitHub-first surface, the equivalent is workflows:
+`.claude/settings.json` -> local hooks for Claude Code
+`.github/workflows/*` -> remote PR/CI validation
+The principle is the same: turn important rules into executable verification.
+The commands are examples. In a Python, Go, Rust, or Windows-first repository, use the natural command for that
+project. The important rule is not the runtime name, but separating quick checks from full closure.
+The key detail is how failures behave. A hook that prints a warning but allows continuing does not block anything.
+If a rule is mandatory, the command must return a non-zero exit code and leave a short message explaining what
+to fix. If the rule is only informative, it must say so explicitly to avoid confusion with a real gate.
+
+## Page 70
+
+Harness-SDD checklist
+Before closing an AI-assisted feature:
+- [ ] There is only one active feature.
+- [ ] `feature_list.json` reflects real status.
+- [ ] If `sdd: true`, `requirements.md`, `design.md`, and `tasks.md` exist.
+- [ ] A human approved the spec before touching code.
+- [ ] Every requirement has an `R<n>` id.
+- [ ] Every `R<n>` has at least one test.
+- [ ] Every task references one or more requirements.
+- [ ] The implementer marked tasks completed.
+- [ ] The reviewer validated traceability.
+- [ ] `./init.sh` finishes green.
+- [ ] `progress/current.md` was closed or marked as blocked.
+- [ ] `progress/history.md` received the final summary.
+This list is deliberately strict. Modern AI is not controlled with longer and longer prompts. It is controlled with
+harnesses: files, states, specs, permissions, tests, and reviews that prevent the agent from skipping the process
+without leaving evidence.
+Evals and rubrics: measure beyond "I like it"
+Prompt evaluation cannot rely only on intuition. You need repeatable criteria. That is where a rubric fits: an explicit
+definition of what "good" means.
+Naming convention: in SDD, `evaluations/` usually stores notes, conclusions, and evaluation decisions. In a
+harness, `evals/` usually contains executable or semi-executable pieces: rubrics, scoring, fixtures, and scripts.
+They can connect, but they do not serve the same function. `evals/` measures; `evaluations/` records posture and
+decision.
+Simple rubric
+A rubric can score dimensions such as:
+context fidelity;
+completeness;
+accuracy;
+format;
+tone;
+safety;
+actionable utility.
+Example:
+Score 0-2 per dimension:
+0 = critical failure
+
+## Page 71
+
+1 = partial
+2 = meets
+Possible thresholds:
+average >= 1.7 and no critical dimension at 0 -> approvable
+average between 1.2 and 1.69 -> needs review
+average < 1.2 or safety = 0 -> rejected
+The threshold does not need to be universal. It needs to be written before evaluation, because changing the rule
+after seeing the result turns evaluation into opinion.
+Example `evals/rubric.md`:
+# Operational Response Rubric
+## Dimensions
+- Context fidelity: does not invent data or contradict sources.
+- Completeness: covers all requested points.
+- Actionability: leaves verifiable next steps.
+- Safety: respects permissions and blocks.
+- Format: delivers the requested structure.
+## Decision rule
+- Approvable: average >= 1.7 and safety > 0.
+- Review: average between 1.2 and 1.69.
+- Rejected: average < 1.2 or safety = 0.
+Evaluation example
+Dimension
+Criterion
+Fidelity
+Does not invent data or contradict input
+Format
+Respects the requested structure
+Tone
+Maintains professional language
+Actionability
+Provides useful next steps
+Safety
+Does not execute or recommend forbidden actions
+Automatic and human evaluation
+It is best to combine both approaches.
+automatic: for objective rules, format, length, field presence, forbidden patterns;
+
+## Page 72
+
+human: for quality nuances, clarity, persuasiveness, utility, and alignment.
+In real systems, the most common error is using weak automatic metrics as if they solved everything. They help, but
+they do not replace critical reading. Good practice is using automation to filter and a human rubric to decide.
+Regression tests: do not break what already worked
+A regression test compares behavior between versions. The goal is not to freeze the system forever, but to detect
+unwanted changes.
+In a mature flow, every prompt or model change should answer:
+1. what improved;
+2. what got worse;
+3. which new cases appeared;
+4. what is accepted as a trade-off;
+5. what needs rollback.
+Typical regression cases
+the new prompt becomes more verbose than needed;
+a safety warning disappears;
+the model stops asking for clarifications;
+language changes;
+JSON format breaks a parser;
+a tool is invoked when it should not be.
+Practical strategy
+Keep a small set of critical fixtures and a broader set of exploratory fixtures. Critical ones protect essentials.
+Exploratory ones show how the system behaves outside the main path.
+If a regression test fails, it is not enough to "fix output." You need to understand whether the issue is in:
+the prompt;
+the model;
+postprocessing;
+configuration;
+policy;
+dataset.
+Safety and permissions
+When a model produces actions, answering well is not enough. It also needs to operate inside clear limits. In
+tool-enabled systems, safety is part of prompt and harness design.
+
+## Page 73
+
+Basic principles
+least privilege;
+confirmation for sensitive actions;
+separation between suggesting and executing;
+input and output validation;
+decision logging;
+explicit blocking of dangerous actions.
+Example rule
+If an action modifies data, charges money, deletes information, or sends external messages, request human
+confirmation before executing.
+Safe prompt
+The prompt must not assume permissions or credentials. It should also avoid encouraging the model to "solve by
+itself" things that require external validation.
+Example:
+Do not assume you have access to external systems. If an impact action is needed, describe it and ask for
+confirmation.
+Safe harness
+The harness should be able to simulate permissions and test limits:
+without internet access;
+with tools disabled;
+with fake credentials;
+in read-only mode;
+with required confirmation.
+That makes it possible to verify the system not only when everything is enabled, but also when it operates under
+restrictions.
+Observability: see what actually happened
+Observability is what lets you debug and learn from the system once it leaves the lab. If a prompt fails in production,
+you need to reconstruct context.
+What to log
+prompt version;
+model version;
+
+## Page 74
+
+date and time;
+summarized input;
+raw output;
+tools used;
+latency;
+estimated cost;
+errors;
+policy decision;
+fixture or case identifier.
+Log example
+{
+  "run_id": "run-001",
+  "prompt_version": "1.4.2",
+  "model": "provider-model-id",
+  "fixture_id": "safety-03",
+  "latency_ms": 1840,
+  "tools_used": ["search"],
+  "outcome": "needs_review"
+}
+Log hygiene: do not store secrets, tokens, unnecessary personal data, or internal prompts that cannot circulate.
+For audit, identifiers, hashes, summarized input, relevant output, and pointers to controlled artifacts are usually
+enough.
+What to inspect first
+When something fails, review:
+1. original input;
+2. real applied prompt;
+3. model configuration;
+4. available tools;
+5. raw output;
+6. postprocessing;
+7. evaluation criteria.
+Without observability, every bug looks like magic. With observability, it becomes a sequence of auditable decisions.
+A minimum harness example
+To ground the idea, imagine a system that classifies internal requests and responds with a short plan. The minimum
+architecture can look like this:
+
+## Page 75
+
+1. load persistent instructions
+2. load task prompt
+3. load fixture
+4. build final message
+5. run model
+6. validate format
+7. score with rubric
+8. save result
+9. compare against baseline
+10. report
+Pseudocode
+const system = loadFile("prompts/system.md")
+const task = loadFile("prompts/task.md")
+const fixtures = loadJsonl("fixtures/inbox.jsonl")
+for (const fixture of fixtures) {
+  const input = buildInput(system, task, fixture)
+  const output = await model.run(input)
+  const score = evaluate(output, fixture.expected_traits)
+  saveRun({ fixtureId: fixture.id, output, score })
+}
 What matters in the example
 You do not need sophistication to start. The essential part is that the flow is:
 explicit;
@@ -2108,12 +2557,15 @@ evaluable;
 comparable.
 Once that exists, you can scale. Before that, everything is hard to maintain.
 Criteria for iterating prompts without breaking the system
-When you improve a prompt, do not edit blindly. Better to follow a short, disciplined cycle.
+When improving a prompt, do not edit blindly. Better to follow a short and disciplined cycle.
 Iteration checklist
 define the exact problem;
 choose a representative fixture;
 write the improvement hypothesis;
 change only one thing at a time;
+
+## Page 76
+
 run the harness;
 compare against baseline;
 review new failures;
@@ -2121,7 +2573,7 @@ accept the change or revert it;
 document the decision.
 Practical rules
 1. Do not mix format improvements with policy changes in the same iteration.
-2. Do not use one happy example to justify a change.
+2. Do not use a single happy example to justify a change.
 3. Do not declare victory without checking regressions.
 4. Do not save a new prompt without its version and rationale.
 5. Do not put critical business logic only inside the prompt if it can live better in code.
@@ -2131,33 +2583,52 @@ encode it outside the model.
 Examples:
 schema validation;
 permission rules;
-BIBLIA - Nicolás Ezequiel Melluso
-64/66
-
-## Page 65
-
 deterministic routing;
 sensitive data filtering;
 format normalization;
-metric computation.
+metric calculation.
 The prompt stays for what it does best: interpret, prioritize, write, synthesize, and decide with context. Code stays
 for what it does best: validate, control, and execute deterministically.
 Maturity signals
 You know you moved from a "loose prompt" to a "system" when you can answer these questions without
 improvising:
-what prompt version is in production?
-with which fixtures is it validated?
-what criteria does the rubric define?
+which prompt version is in production?
+which fixtures validate it?
+which criteria does the rubric define?
 what changed against baseline?
-what actions are allowed?
+which actions are allowed?
 what was recorded in logs?
 which regressions are tolerated and which are not?
+
+## Page 77
+
 If those answers are scattered, the system still depends too much on human memory.
 Operational summary
-Prompt engineering is not only writing better. It is designing an instruction interface that can be sustained over
+Prompt engineering is not just writing better. It is designing an instruction interface that can be sustained over
 time. Harness engineering is the support that makes that sustainability possible: it loads fixtures, runs versions,
 evaluates results, records evidence, and protects the system from accidental changes.
-Practical discipline fits in a simple formula:
+Practical boundary:
+Decision
+Lives better in
+Example
+Tone, role, format, and soft criteria
+Prompt
+"Respond in clear English with prioritized findings"
+Deterministic rules, permissions, and
+hard validations
+Code
+"reject limit > 50"
+Test cases, comparison, and
+evidence
+Harness
+fixtures, scoring, reports, and baseline
+Product or risk decisions
+Human evaluation
+accept trade-off, request rollback,
+change scope
+If something must always be satisfied, it should not depend only on one sentence in the prompt. It should be
+validated by code, test, harness, or explicit human review.
+Practical discipline remains a simple formula:
 separate persistent instructions from task prompts;
 use real and representative fixtures;
 set expectations with golden tests and rubrics;
@@ -2165,24 +2636,484 @@ run regression tests before publishing changes;
 control permissions and sensitive actions;
 observe what happens in production;
 version everything that matters.
-When this exists, the prompt stops being a bet. It becomes an engineering component.
-BIBLIA - Nicolás Ezequiel Melluso
-65/66
-
-## Page 66
-
+When that exists, the prompt stops being a bet. It becomes an engineering component.
 Final checklist
-Define the system’s persistent instruction.
-Separate the task prompt from dynamic context.
-Create fixtures for happy, ambiguous, and risky cases.
-Write at least one golden test per critical behavior.
-Design a simple, repeatable rubric.
-Implement a harness CLI with run , eval , and report .
-Save versioning for prompts, model, and configuration.
-Log records and latency per execution.
-Test permissions, fallbacks, and no-tool cases.
-Compare every change against a baseline.
-Document change and rollback decisions.
+ Define the system's persistent instruction.
+ Separate the task prompt from dynamic context.
+ Create fixtures for happy, ambiguous, and risky cases.
+ Write at least one golden test per critical behavior.
+
+## Page 78
+
+ Design a simple, repeatable rubric.
+ Implement a harness CLI with `run`, `eval`, and `report`.
+ Save versioning for prompts, model, and configuration.
+ Log records and latency per execution.
+ Test permissions, fallbacks, and no-tool cases.
+ Compare every change against a baseline.
+ Document change and rollback decisions.
 That set is enough to move from a promising idea to a productive, auditable, and maintainable capability.
-BIBLIA - Nicolás Ezequiel Melluso
-66/66
+
+## Page 79
+
+VOLUME 06
+Examples and Use Cases
+Complete scaffolding to apply The modern biblia in a real repository
+By the end of this volume you have a complete scaffolding to apply all of The modern biblia in a real repository.
+
+## Page 80
+
+This volume closes the explanation with a complete case. The cutoff date for this example is 2026-05-15. The idea
+is not to show a decorative mockup, but a functional scaffolding that a person can copy, adapt, and use as a base
+for an AI-enabled repository with SDD, subagents, reusable prompts, local validation, CI, and harness.
+The chosen system is intentionally small: a notes CLI called `agentic-notes`. It lets you add notes, list recent notes,
+and search text. The domain is simple, but the work structure is robust. That makes it easy to see what belongs in
+each file and how the pieces connect.
+Final structure
+agentic-notes/
+  AGENTS.md
+  README.md
+  package.json
+  init.sh
+  src/
+    cli.mjs
+    store.mjs
+  test/
+    notes.test.mjs
+  scripts/
+    validate-sdd.mjs
+  harness/
+    fixtures/
+      recent.jsonl
+    evals/
+      rubric.md
+    run-eval.mjs
+  .github/
+    copilot-instructions.md
+    instructions/
+      tests.instructions.md
+    prompts/
+      plan-feature.prompt.md
+      review-pr.prompt.md
+    workflows/
+      ci.yml
+    orquestador/
+      context/
+        product.md
+        architecture.md
+      sdd/
+        requirements/
+          recent-notes.md
+        specs/
+          recent-notes.md
+        tasks/
+          recent-notes.md
+        acceptance/
+          recent-notes.md
+
+## Page 81
+
+        traces/
+          recent-notes.md
+        evaluations/
+          recent-notes.md
+        progress/
+          current.md
+          history.md
+      pipelines/
+        catalog.md
+README.md
+# Agentic Notes
+Minimal CLI to manage local notes and demonstrate a work flow with AI, SDD, subagents, and harness.
+## Commands
+```bash
+npm test
+npm run validate:sdd
+npm run check
+node src/cli.mjs add "Research AGENTS.md"
+node src/cli.mjs recent --limit 5
+node src/cli.mjs search AGENTS
+```
+## Work flow
+1. The requirement lives in `.github/orquestador/sdd/requirements/`.
+2. The verifiable spec lives in `.github/orquestador/sdd/specs/`.
+3. Tasks live in `.github/orquestador/sdd/tasks/`.
+4. Traceability lives in `.github/orquestador/sdd/traces/`.
+5. Operational status lives in `.github/orquestador/sdd/progress/`.
+6. Closure is validated with `./init.sh` or `npm run check`.
+package.json
+{
+  "name": "agentic-notes",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "validate:sdd": "node scripts/validate-sdd.mjs",
+
+## Page 82
+
+"eval": "node harness/run-eval.mjs",
+    "check": "npm test && npm run validate:sdd && npm run eval"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+AGENTS.md
+# AGENTS.md
+This repository uses AI with one central rule: no important change is closed without spec, evidence, and traceability.
+## Initial reading
+1. Read `README.md`.
+2. Read `.github/orquestador/context/product.md`.
+3. Read `.github/orquestador/context/architecture.md`.
+4. If the task touches behavior, read the matching spec in `.github/orquestador/sdd/specs/`.
+5. Review `.github/orquestador/sdd/progress/current.md` before acting.
+## Roles
+- `explorer`: investigates and delivers evidence-backed findings. Does not modify files.
+- `spec_author`: turns an idea into requirements, spec, and tasks. Does not implement.
+- `implementer`: modifies only files under explicit ownership.
+- `reviewer`: reviews diff, tests, and trace. Does not fix while reviewing.
+## Closure rules
+- Run `npm run check`.
+- Update trace if requirements, tasks, or tests change.
+- Record evidence in `.github/orquestador/sdd/progress/history.md`.
+- Do not declare `done` if `init.sh` or `npm run check` fails.
+init.sh
+#!/usr/bin/env sh
+set -eu
+command -v node >/dev/null 2>&1 || {
+  echo "Node.js no está disponible"
+  exit 2
+}
+
+## Page 83
+
+npm test || exit 1
+npm run validate:sdd || exit 3
+npm run eval || exit 1
+src/store.mjs
+import fs from "node:fs";
+import path from "node:path";
+const dataDir = path.resolve(".data");
+const dataFile = path.join(dataDir, "notes.json");
+export function readNotes() {
+  if (!fs.existsSync(dataFile)) return [];
+  return JSON.parse(fs.readFileSync(dataFile, "utf8"));
+}
+export function writeNotes(notes) {
+  fs.mkdirSync(dataDir, { recursive: true });
+  fs.writeFileSync(dataFile, JSON.stringify(notes, null, 2) + "\n", "utf8");
+}
+export function addNote(title) {
+  if (!title || !title.trim()) {
+    throw new Error("El título de la nota es obligatorio");
+  }
+  const notes = readNotes();
+  const now = new Date().toISOString();
+  const note = {
+    id: `note-${notes.length + 1}`,
+    title: title.trim(),
+    created_at: now,
+    updated_at: now
+  };
+  notes.push(note);
+  writeNotes(notes);
+  return note;
+}
+export function recentNotes(limit = 10) {
+  const parsedLimit = Number(limit);
+  if (!Number.isInteger(parsedLimit) || parsedLimit < 1 || parsedLimit > 50) {
+    throw new Error("El límite debe ser un entero entre 1 y 50");
+  }
+  return readNotes()
+
+## Page 84
+
+.toSorted((a, b) => b.updated_at.localeCompare(a.updated_at))
+    .slice(0, parsedLimit);
+}
+export function searchNotes(query) {
+  const normalized = String(query || "").trim().toLowerCase();
+  if (!normalized) return [];
+  return readNotes().filter((note) =>
+    note.title.toLowerCase().includes(normalized)
+  );
+}
+src/cli.mjs
+#!/usr/bin/env node
+import { addNote, recentNotes, searchNotes } from "./store.mjs";
+const [, , command, ...args] = process.argv;
+function getOption(name, fallback) {
+  const index = args.indexOf(name);
+  if (index === -1) return fallback;
+  return args[index + 1] ?? fallback;
+}
+function printNotes(notes) {
+  if (notes.length === 0) {
+    console.log("No hay notas para mostrar.");
+    return;
+  }
+  for (const note of notes) {
+    console.log(`${note.id} | ${note.updated_at} | ${note.title}`);
+  }
+}
+try {
+  if (command === "add") {
+    const note = addNote(args.join(" "));
+    console.log(`Nota creada: ${note.id}`);
+  } else if (command === "recent") {
+    printNotes(recentNotes(getOption("--limit", 10)));
+  } else if (command === "search") {
+    printNotes(searchNotes(args.join(" ")));
+  } else {
+    console.log("Uso: notes add <titulo> | recent [--limit n] | search <texto>");
+    process.exitCode = 2;
+  }
+} catch (error) {
+
+## Page 85
+
+console.error(error.message);
+  process.exitCode = 1;
+}
+test/notes.test.mjs
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import test from "node:test";
+import { addNote, recentNotes, searchNotes } from "../src/store.mjs";
+test.beforeEach(() => {
+  fs.rmSync(".data", { recursive: true, force: true });
+});
+test("recent muestra 10 notas por defecto", () => {
+  for (let index = 1; index <= 12; index += 1) {
+    addNote(`Nota ${index}`);
+  }
+  assert.equal(recentNotes().length, 10);
+});
+test("recent respeta --limit", () => {
+  for (let index = 1; index <= 8; index += 1) {
+    addNote(`Nota ${index}`);
+  }
+  assert.equal(recentNotes(5).length, 5);
+});
+test("recent rechaza límites inválidos", () => {
+  assert.throws(() => recentNotes(0), /entero entre 1 y 50/);
+  assert.throws(() => recentNotes(99), /entero entre 1 y 50/);
+});
+test("search encuentra notas por título", () => {
+  addNote("Investigar AGENTS.md");
+  addNote("Preparar runbook");
+  assert.equal(searchNotes("agents").length, 1);
+});
+
+## Page 86
+
+scripts/validate-sdd.mjs
+import fs from "node:fs";
+const requiredFiles = [
+  ".github/orquestador/context/product.md",
+  ".github/orquestador/context/architecture.md",
+  ".github/orquestador/sdd/requirements/recent-notes.md",
+  ".github/orquestador/sdd/specs/recent-notes.md",
+  ".github/orquestador/sdd/tasks/recent-notes.md",
+  ".github/orquestador/sdd/acceptance/recent-notes.md",
+  ".github/orquestador/sdd/traces/recent-notes.md"
+];
+let failed = false;
+for (const file of requiredFiles) {
+  if (!fs.existsSync(file)) {
+    console.error(`Falta archivo SDD: ${file}`);
+    failed = true;
+  }
+}
+const trace = fs.existsSync(".github/orquestador/sdd/traces/recent-notes.md")
+  ? fs.readFileSync(".github/orquestador/sdd/traces/recent-notes.md", "utf8")
+  : "";
+for (const requirement of ["R1", "R2", "R3"]) {
+  if (!trace.includes(requirement)) {
+    console.error(`Trace incompleta: falta ${requirement}`);
+    failed = true;
+  }
+}
+process.exit(failed ? 3 : 0);
+.github/orquestador/context/product.md
+# Product
+Agentic Notes is a local CLI to create and query notes. Its goal is not to compete with a complete notes app, but to
+demonstrate a robust base for AI-assisted work.
+## Users
+- Developers who want to record quick ideas.
+- Teams that want to practice SDD and traceability.
+- People who need a minimal but functional example.
+
+## Page 87
+
+## Non-goals
+- No cloud sync.
+- No web UI.
+- No authentication.
+.github/orquestador/context/architecture.md
+# Architecture
+The application uses Node.js ESM and local JSON storage.
+## Components
+- `src/cli.mjs`: command boundary.
+- `src/store.mjs`: domain and persistence rules.
+- `test/notes.test.mjs`: behavior coverage.
+- `scripts/validate-sdd.mjs`: local SDD structure gate.
+- `harness/run-eval.mjs`: minimal fixture-based evaluation.
+## Rule
+The CLI can parse arguments, but business rules live in `store.mjs`.
+SDD: requirements
+# Requirements: recent notes
+## R1
+The system must show the 10 most recent notes by default.
+## R2
+The user must be able to change the limit with `--limit`, between 1 and 50.
+## R3
+If there are no notes, the system must return a neutral message without failing.
+
+## Page 88
+
+SDD: spec
+# Spec: recent notes
+Command:
+```bash
+node src/cli.mjs recent --limit 5
+```
+## Rules
+- Sort by `updated_at` descending.
+- Use limit 10 if `--limit` is not provided.
+- Reject limits below 1 or above 50.
+- Show `No hay notas para mostrar.` when there are no notes.
+SDD: tasks
+# Tasks: recent notes
+- [x] T1 -> R1: implement descending order and default limit.
+- [x] T2 -> R2: parse and validate `--limit`.
+- [x] T3 -> R3: cover empty-notes state.
+- [x] T4 -> R1/R2/R3: add tests.
+- [x] T5 -> R1/R2/R3: update trace.
+SDD: acceptance
+# Acceptance: recent notes
+- A1: with 12 notes, `recent` shows 10.
+- A2: with `--limit 5`, `recent` shows 5.
+- A3: with `--limit 0`, command fails with a clear message.
+- A4: without notes, command shows a neutral message.
+SDD: traces
+# Trace: recent notes
+| Requirement | Task | Test | Evidence |
+| --- | --- | --- | --- |
+| R1 | T1, T4 | `recent muestra 10 notas por defecto` | `npm test` |
+
+## Page 89
+
+| R2 | T2, T4 | `recent respeta --limit` | `npm test` |
+| R2 | T2, T4 | `recent rechaza límites inválidos` | `npm test` |
+| R3 | T3, T4 | empty output from `printNotes` | `npm test` + CLI review |
+Harness
+harness/fixtures/recent.jsonl
+{"id":"recent-default","command":"recent","expected":"10 notas por defecto"}
+{"id":"recent-limit","command":"recent --limit 5","expected":"5 notas"}
+{"id":"recent-empty","command":"recent","expected":"mensaje neutro si no hay notas"}
+harness/evals/rubric.md
+# Rubric
+- Fidelity: satisfies R1, R2, and R3.
+- Safety: does not write outside `.data/`.
+- Clarity: errors have actionable messaging.
+- Maintainability: rules in `store.mjs`, CLI in `cli.mjs`.
+Minimum acceptable result: no critical dimension in red.
+harness/run-eval.mjs
+import fs from "node:fs";
+const fixtures = fs
+  .readFileSync("harness/fixtures/recent.jsonl", "utf8")
+  .trim()
+  .split("\n")
+  .map((line) => JSON.parse(line));
+for (const fixture of fixtures) {
+  if (!fixture.id || !fixture.command || !fixture.expected) {
+    console.error(`Fixture inválido: ${JSON.stringify(fixture)}`);
+    process.exit(1);
+  }
+}
+console.log(`Fixtures válidos: ${fixtures.length}`);
+Reusable prompts
+.github/prompts/plan-feature.prompt.md
+
+## Page 90
+
+---
+agent: 'agent'
+description: "Convert an idea into an SDD spec"
+---
+Use context from `.github/orquestador/context/`.
+Input:
+${input:feature:Describe the feature}
+Produce:
+1. problem;
+2. non-goals;
+3. requirements R1..Rn;
+4. verifiable spec;
+5. tasks by slices;
+6. suggested tests;
+7. risks.
+Do not implement.
+.github/prompts/review-pr.prompt.md
+---
+agent: 'agent'
+description: "Review PR focused on behavior and traceability"
+---
+Review diff, tests, and SDD.
+Priority:
+1. bugs;
+2. regressions;
+3. permissions;
+4. requirements without tests;
+5. tests without requirements.
+Output:
+- findings with file;
+- open questions;
+- decision: approve, block, or request changes.
+GitHub Actions
+.github/workflows/ci.yml
+name: ci
+
+## Page 91
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run check
+Progress
+.github/orquestador/sdd/progress/current.md
+# Current
+Active feature: recent notes
+Status: implemented
+Blockers: none
+Next step: human review and closure.
+.github/orquestador/sdd/progress/history.md
+# History
+## recent notes
+- Requirements R1, R2, and R3 covered.
+- Tests executed with `npm test`.
+- SDD validated with `npm run validate:sdd`.
+- Harness validated with `npm run eval`.
+Closing The modern biblia
+The modern biblia does not propose using more AI just to use more AI. It proposes working better: with clear
+intent, useful context, verifiable specs, well-scoped subagents, reusable prompts, measurable harnesses, and
+closure evidence.
+
+## Page 92
+
+If a person can open a repository, read its rules, understand the contract, run validation, and continue the work
+without depending on a lost conversation, the system already started to mature.
+That is the final objective: artificial intelligence should not be brilliant improvisation, but an engineering capability.

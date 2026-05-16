@@ -2,7 +2,7 @@
 language: zh
 language_name: Chinese
 source_pdf: "The modern biblia.pdf"
-page_count: 63
+page_count: 92
 generated_from_pdf: true
 ---
 
@@ -10,7 +10,7 @@ generated_from_pdf: true
 
 Source PDF: `The modern biblia.pdf`
 Language: Chinese
-Text extraction quality: Clean extraction observed; page count differs
+Text extraction quality: Clean extraction observed
 
 This Markdown file is generated from the PDF to make agent reading faster.
 Use the PDF as the visual source of truth when layout or extraction is uncertain.
@@ -27,7 +27,7 @@ nicolas.e.melluso@gmail.com
 linkedin.com/in/nicolas-ezequiel-melluso
 github.com/Nicolas-Melluso
 BIBLIA - Nicolás Ezequiel Melluso
-1/63
+1/92
 
 ## Page 2
 
@@ -48,7 +48,7 @@ AGENTS.md、.github 与提示词风格命令
 Prompt Engineering 与 Harness Engineering
 从零散 prompts 到可版本化、可评估、可生产的系统
 BIBLIA - Nicolás Ezequiel Melluso
-2/63
+2/92
 
 ## Page 3
 
@@ -56,7 +56,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 人工智能的现代使用
 如何从与模型聊天，转向使用一个包含思考、执行与验证的系统
 BIBLIA - Nicolás Ezequiel Melluso
-3/63
+3/92
 
 ## Page 4
 
@@ -91,7 +91,7 @@ tracker、文档、本地数据库、测试、linters、模拟器与 pipelines�
 上正确”。记录避免知识丢在聊天里。下一次迭代把工作转化为累积学习。
 一个简单例子：
 BIBLIA - Nicolás Ezequiel Melluso
-4/63
+4/92
 
 ## Page 5
 
@@ -142,7 +142,7 @@ src/server.js , public/app.js
 显化敏感点
 "日志中不要泄露密钥"
 BIBLIA - Nicolás Ezequiel Melluso
-5/63
+5/92
 
 ## Page 6
 
@@ -165,7 +165,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 现代 prompt
 现代 prompt 的形态应是“运营简报”。不需要华丽，也不需要很长；需要的是消除歧义。
 BIBLIA - Nicolás Ezequiel Melluso
-6/63
+6/92
 
 ## Page 7
 
@@ -198,7 +198,7 @@ PostgreSQL 和 GitHub Actions。我们希望保持小范围实现。
 也无法在 CI 里运行。相对地，仓库可以保存说明、spec、决策、prompts、tests 和 workflows。
 现代团队通常会分离：
 BIBLIA - Nicolás Ezequiel Melluso
-7/63
+7/92
 
 ## Page 8
 
@@ -259,7 +259,7 @@ AI 能生成很有说服力的文字，也能写出“看起来正确”的代�
 验证示例：
 1. 单元测试与集成测试。
 BIBLIA - Nicolás Ezequiel Melluso
-8/63
+8/92
 
 ## Page 9
 
@@ -293,7 +293,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 库后不用花半小时猜测。
 交付物：
 BIBLIA - Nicolás Ezequiel Melluso
-9/63
+9/92
 
 ## Page 10
 
@@ -325,7 +325,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 3. 评估 rubrica。
 4. 本地脚本或验证 workflow。
 BIBLIA - Nicolás Ezequiel Melluso
-10/63
+10/92
 
 ## Page 11
 
@@ -371,7 +371,7 @@ agent 权限过大
 4. 我知道还剩哪些风险。
 5. 可复用知识已沉淀为文件。
 BIBLIA - Nicolás Ezequiel Melluso
-11/63
+11/92
 
 ## Page 12
 
@@ -381,7 +381,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 最后规则很简单：如果输出很重要，就把 AI 当成生产系统的一部分。给它上下文、边界、工具、测试和记忆。其余
 都只是聊天。
 BIBLIA - Nicolás Ezequiel Melluso
-12/63
+12/92
 
 ## Page 13
 
@@ -389,7 +389,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 智能使用子代理
 更好委派的标准、模式与运营收尾
 BIBLIA - Nicolás Ezequiel Melluso
-13/63
+13/92
 
 ## Page 14
 
@@ -426,7 +426,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 没有基线、指标和范围就说“优化性能”。
 如果你说不清想要哪个文件或哪种输出，通常说明你还没准备好委派。
 BIBLIA - Nicolás Ezequiel Melluso
-14/63
+14/92
 
 ## Page 15
 
@@ -464,7 +464,7 @@ worker 用于执行。它接收一个范围受控的目标、明确编辑区域�
 用具体命令验证；
 让结果处于可评审状态。
 BIBLIA - Nicolás Ezequiel Melluso
-15/63
+15/92
 
 ## Page 16
 
@@ -499,7 +499,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 诸如“尽量大幅优化”这类开放式指令。
 如果子代理缺少关键澄清就会出错，最好暂停并重新框定；如果只缺噪音细节，就不要传。
 BIBLIA - Nicolás Ezequiel Melluso
-16/63
+16/92
 
 ## Page 17
 
@@ -535,7 +535,7 @@ ownership 清晰后，评审也会更好。你知道改了什么、为什么改�
 一个查找风险或依赖。
 这在大型任务开始阶段很有用。你不必顺序读完全部，即可更快拿到地图。
 BIBLIA - Nicolás Ezequiel Melluso
-17/63
+17/92
 
 ## Page 18
 
@@ -570,7 +570,7 @@ worker B 检查相关测试是否存在，以及改动是否破坏约定；
 你把整个 repo、整段聊天、全部笔记都丢进去。agent 会失焦。
 典型信号：冗长回答里，相关片段和噪音混在一起。
 BIBLIA - Nicolás Ezequiel Melluso
-18/63
+18/92
 
 ## Page 19
 
@@ -604,7 +604,7 @@ Effort：低。
 Effort：低到中。
 目标：在不过度扩写的情况下组织信息。
 BIBLIA - Nicolás Ezequiel Melluso
-19/63
+19/92
 
 ## Page 20
 
@@ -638,7 +638,7 @@ Deliverable: list of relevant files, brief flow summary, and risks.
 Do not make changes.
 If anything is unclear, mark the uncertainty.
 BIBLIA - Nicolás Ezequiel Melluso
-20/63
+20/92
 
 ## Page 21
 
@@ -674,7 +674,7 @@ Do not modify files.
 目标已用一句可验证语句达成。
 子代理在授权 ownership 内工作。
 BIBLIA - Nicolás Ezequiel Melluso
-21/63
+21/92
 
 ## Page 22
 
@@ -711,7 +711,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 错误在集成前被发现。
 做得差时：
 BIBLIA - Nicolás Ezequiel Melluso
-22/63
+22/92
 
 ## Page 23
 
@@ -728,7 +728,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 最佳实践不是“让 AI 自己干完一切”。而是搭建一条工作链，让每个环节都有受限角色、可核验输出和明确收尾。到
 那时，子代理才会从承诺变成真正有用的工具。
 BIBLIA - Nicolás Ezequiel Melluso
-23/63
+23/92
 
 ## Page 24
 
@@ -736,7 +736,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 SDD 与支持结构
 应用于 AI 仓库的 Specification-Driven Development
 BIBLIA - Nicolás Ezequiel Melluso
-24/63
+24/92
 
 ## Page 25
 
@@ -773,7 +773,7 @@ runbook 准备运维。
 如果所有内容混在一个文件里，系统会变脆弱；如果无原则地过度原子化，也一样会脆弱。SDD 追求平衡：拆分到
 每部分有清晰职责，但不要拆到理解一个 feature 需要打开二十个彼此无关的文件。
 BIBLIA - Nicolás Ezequiel Melluso
-25/63
+25/92
 
 ## Page 26
 
@@ -817,7 +817,7 @@ README.md
 它是入口。应说明本仓库里的 SDD 是什么、该目录目标是什么、如何使用。它不该承载完整理论，而应提供简明导
 航说明。
 BIBLIA - Nicolás Ezequiel Melluso
-26/63
+26/92
 
 ## Page 27
 
@@ -855,7 +855,7 @@ spec 描述行为。它不再只谈问题，而是描述期望中的系统。它
 态、错误、权限和边界场景。
 期望内容：
 BIBLIA - Nicolás Ezequiel Melluso
-27/63
+27/92
 
 ## Page 28
 
@@ -893,7 +893,7 @@ task 目标；
 完成标准；
 预期证据。
 BIBLIA - Nicolás Ezequiel Melluso
-28/63
+28/92
 
 ## Page 29
 
@@ -931,7 +931,7 @@ evaluations/
 用了什么方法；
 得到了什么结果；
 BIBLIA - Nicolás Ezequiel Melluso
-29/63
+29/92
 
 ## Page 30
 
@@ -965,7 +965,7 @@ checklist 示例。
 6. 带着 traceability 实现
 每次变更都要与 spec 保持连接。可以通过 PR 引用、task 备注或 trace 链接来实现。关键是不要断链。
 BIBLIA - Nicolás Ezequiel Melluso
-30/63
+30/92
 
 ## Page 31
 
@@ -997,7 +997,7 @@ Spec
 边界情况：
 验收标准：
 BIBLIA - Nicolás Ezequiel Melluso
-31/63
+31/92
 
 ## Page 32
 
@@ -1027,7 +1027,7 @@ PR:
 TESTS:
 NOTAS:
 BIBLIA - Nicolás Ezequiel Melluso
-32/63
+32/92
 
 ## Page 33
 
@@ -1059,7 +1059,7 @@ AI 协助实现并审查 traceability；
 关键是用 AI 加速推理，而不是替代推理。SDD 让 AI 基于显式基础工作。与其说“给我做个 feature”，不如说“基于这
 份 spec 和这些 acceptance criteria，拆解实现并标出风险”。这种语言转换会显著提升结果质量。
 BIBLIA - Nicolás Ezequiel Melluso
-33/63
+33/92
 
 ## Page 34
 
@@ -1094,7 +1094,7 @@ issue、spec、PR 与 tests 之间有 traceability；
 有 evaluation 或 validation 记录；
 文档、代码、测试之间无矛盾；
 BIBLIA - Nicolás Ezequiel Melluso
-34/63
+34/92
 
 ## Page 35
 
@@ -1115,7 +1115,7 @@ evaluation notes 不是装饰目录。它们是让一个想法从问题走向实
 如果仓库采用这种工作方式，每个 feature 就不再是一次信仰跃迁，而会变成可追踪、可审查、可改进的过程。对于
 AI 辅助技术栈来说，这比任何临时捷径都更有价值。
 BIBLIA - Nicolás Ezequiel Melluso
-35/63
+35/92
 
 ## Page 36
 
@@ -1125,7 +1125,7 @@ AGENTS.md、.github 与提示词风格
 如何构建一个为 agents、SDD、Copilot、workflows 和可复用 prompts 做好准
 备的仓库
 BIBLIA - Nicolás Ezequiel Melluso
-36/63
+36/92
 
 ## Page 37
 
@@ -1177,7 +1177,7 @@ GitHub Actions
 黄金法则：上下文文件不应假装能执行操作。workflow 才执行。catalog 负责文档化。prompt 负责引导。
 AGENTS.md 负责治理 agent 行为。保持这种分离可以避免系统混乱。
 BIBLIA - Nicolás Ezequiel Melluso
-37/63
+37/92
 
 ## Page 38
 
@@ -1227,7 +1227,7 @@ policies/
 permissions.md
 safety.md
 BIBLIA - Nicolás Ezequiel Melluso
-38/63
+38/92
 
 ## Page 39
 
@@ -1247,7 +1247,7 @@ AGENTS.md 是告诉 agent 如何在仓库中操作的文件。它不是落地页
 7. 如何结束一个任务。
 基础示例：
 BIBLIA - Nicolás Ezequiel Melluso
-39/63
+39/92
 
 ## Page 40
 
@@ -1284,7 +1284,7 @@ Antes de cerrar, informar:
 指令有优先级。用户的明确请求比仓库的一般规则权重更高。更靠近目标子目录的 AGENTS.md 可以细化根目录
 AGENTS.md 的规则。系统或平台指令优先于其他所有内容。
 BIBLIA - Nicolás Ezequiel Melluso
-40/63
+40/92
 
 ## Page 41
 
@@ -1314,7 +1314,7 @@ Si falta contexto de negocio, preguntar o marcar supuesto.
 .github/instructions 下使用 NAME.instructions.md 模式，并通过 frontmatter applyTo 指定范围。
 backend 示例：
 BIBLIA - Nicolás Ezequiel Melluso
-41/63
+41/92
 
 ## Page 42
 
@@ -1343,7 +1343,7 @@ prompt files 是可复用命令。GitHub 将其定义为扩展名为 .prompt.md 
 建议将其视为版本化命令。prompt 变好时通过 PR 评审；失效时调整；不再有用时删除。
 plan-feature.prompt.md 示例：
 BIBLIA - Nicolás Ezequiel Melluso
-42/63
+42/92
 
 ## Page 43
 
@@ -1382,7 +1382,7 @@ Salida:
 No hagas comentarios de estilo si no afectan mantenimiento o comportamiento.
 qa-harness.prompt.md 示例：
 BIBLIA - Nicolás Ezequiel Melluso
-43/63
+43/92
 
 ## Page 44
 
@@ -1419,7 +1419,7 @@ SDD 的含义是从规格出发，而不是凭冲动开发。在 AI 仓库中，
 一个最小 spec 应包含：
 1. 问题。
 BIBLIA - Nicolás Ezequiel Melluso
-44/63
+44/92
 
 ## Page 45
 
@@ -1453,7 +1453,7 @@ Los operadores no pueden mover un reclamo cuando fue derivado al equipo incorrec
 导或治理。该分离可避免两个问题：自动化重复，以及不清楚真正执行发生在哪里。
 保守起步模式：
 BIBLIA - Nicolás Ezequiel Melluso
-45/63
+45/92
 
 ## Page 46
 
@@ -1496,7 +1496,7 @@ Pipeline 目录
 1. 存在哪些 workflow。
 2. 由什么事件触发。
 BIBLIA - Nicolás Ezequiel Melluso
-46/63
+46/92
 
 ## Page 47
 
@@ -1532,7 +1532,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 10. 在 SDD 中更新可追溯性。
 价值在于每一步都会留下痕迹。团队不再依赖记忆聊天里说过什么。
 BIBLIA - Nicolás Ezequiel Melluso
-47/63
+47/92
 
 ## Page 48
 
@@ -1579,7 +1579,7 @@ GitHub Docs - Prompt files
 GitHub Docs - Your first prompt file
 openai/agents.md
 BIBLIA - Nicolás Ezequiel Melluso
-48/63
+48/92
 
 ## Page 49
 
@@ -1591,7 +1591,7 @@ BIBLIA - Nicolás Ezequiel Melluso
 执行验证。catalog 解释系统。
 当这些部分对齐后，AI 就不再是松散聊天，而会成为工作基础设施。
 BIBLIA - Nicolás Ezequiel Melluso
-49/63
+49/92
 
 ## Page 50
 
@@ -1600,7 +1600,7 @@ Prompt Engineering 与 Harness
 Engineering
 从零散 prompts 到可版本化、可评估、可生产的系统
 BIBLIA - Nicolás Ezequiel Melluso
-50/63
+50/92
 
 ## Page 51
 
@@ -1638,7 +1638,7 @@ prompts 往往结构相似。
 1. 明确目标
 模型必须知道它在解决什么问题。“帮助用户”并不够。最好用可执行的业务语义描述目标。
 BIBLIA - Nicolás Ezequiel Melluso
-51/63
+51/92
 
 ## Page 52
 
@@ -1666,7 +1666,7 @@ prompt 需要说明使用环境和边界。用于客服、销售 agent 或内部
 出模板。
 示例：
 BIBLIA - Nicolás Ezequiel Melluso
-52/63
+52/92
 
 ## Page 53
 
@@ -1698,7 +1698,7 @@ fixture 是受控输入案例，用来代表真实场景。在 prompt engineerin
 典型、罕见或危险情景下的表现。
 仅靠一个“成功示例”不够。严肃 harness 需要覆盖：
 BIBLIA - Nicolás Ezequiel Melluso
-53/63
+53/92
 
 ## Page 54
 
@@ -1735,7 +1735,7 @@ golden tests 是将输出与“期望输出”或“明确属性”对比的测�
 适用于输出必须非常稳定的场景，例如结构化格式。
 示例：
 BIBLIA - Nicolás Ezequiel Melluso
-54/63
+54/92
 
 ## Page 55
 
@@ -1767,7 +1767,7 @@ fixture 定义；
 报告；
 结果导出。
 BIBLIA - Nicolás Ezequiel Melluso
-55/63
+55/92
 
 ## Page 56
 
@@ -1808,7 +1808,7 @@ CLI 应该做什么
 输出适合 CI 的清晰摘要。
 如果 harness 只打印漂亮文本，那只是 demo。若还能提供可追踪性与可比较性，它才开始成为基础设施。
 BIBLIA - Nicolás Ezequiel Melluso
-56/63
+56/92
 
 ## Page 57
 
@@ -1848,7 +1848,7 @@ Safety
 在真实系统中，最常见错误是把弱自动指标当成万能。它们有用，但不能替代批判性阅读。最佳实践是用自动化做筛
 选，用人工 rubric 做决策。
 BIBLIA - Nicolás Ezequiel Melluso
-57/63
+57/92
 
 ## Page 58
 
@@ -1885,7 +1885,7 @@ harness 设计的一部分。
 敏感动作需确认；
 建议与执行分离；
 BIBLIA - Nicolás Ezequiel Melluso
-58/63
+58/92
 
 ## Page 59
 
@@ -1919,7 +1919,7 @@ prompt 版本；
 估算成本；
 错误；
 BIBLIA - Nicolás Ezequiel Melluso
-59/63
+59/92
 
 ## Page 60
 
@@ -1958,7 +1958,7 @@ fixture 或案例标识。
 9. 与 baseline 比较
 10. 生成报告
 BIBLIA - Nicolás Ezequiel Melluso
-60/63
+60/92
 
 ## Page 61
 
@@ -1996,7 +1996,7 @@ saveRun({ fixtureId: fixture.id, output, score })
 1. 一次迭代不要混合“格式改进”和“策略改动”。
 2. 不要用单个 happy case 证明改动正确。
 BIBLIA - Nicolás Ezequiel Melluso
-61/63
+61/92
 
 ## Page 62
 
@@ -2032,7 +2032,7 @@ prompt engineering 不只是“写得更好”。它是在设计一种可长期�
 使用真实且有代表性的 fixtures；
 用 golden tests 与 rubrics 固定预期；
 BIBLIA - Nicolás Ezequiel Melluso
-62/63
+62/92
 
 ## Page 63
 
@@ -2055,4 +2055,1256 @@ BIBLIA - Nicolás Ezequiel Melluso
 记录变更与 rollback 决策。
 这套内容足以把一个有潜力的想法升级为可生产、可审计、可维护的能力。
 BIBLIA - Nicolás Ezequiel Melluso
-63/63
+63/92
+
+## Page 64
+
+实践规则
+如果一条指令在所有场景中都会重复，它很可能属于持久层。如果它每次执行都会变化，它属于任务层。如果它来自用户输入，就不要把它和 policy 混在一起。把这些层分开，可以减少错误，也让系统更容易维护。
+
+Fixtures：用于测试行为的具体案例
+fixture 是一个受控输入案例，用来代表一个真实或接近真实的情境。在 prompt engineering 中，fixtures 很重要，因为它们可以验证系统面对常见、罕见或危险场景时是否表现正确。
+
+只靠一个顺利的 happy path 示例不够。严肃的 harness 需要覆盖：
+干净输入；
+不完整输入；
+互相矛盾的输入；
+带噪声的输入；
+模糊请求；
+试图强迫系统输出不安全内容的请求；
+格式边界案例。
+
+fixture 示例
+```json
+{
+  "id": "ticket-001",
+  "input": "我需要有人检查上个月的发票，因为我觉得金额不对。",
+  "expected_traits": [
+    "如果缺少标识符就要求澄清",
+    "不编造数据",
+    "保持专业语气",
+    "提出下一步"
+  ]
+}
+```
+
+什么样的 fixture 是好的
+好的 fixture 不是用技巧去“打败”模型。它描述一个有用情境。它应该是：
+稳定的；
+可复现的；
+可读的；
+有代表性的；
+容易扩展的。
+
+如果 fixture 总是在变，就无法比较版本。如果它太人工化，就不能反映真实使用。质量来自平衡。
+BIBLIA - Nicolás Ezequiel Melluso
+64/92
+
+## Page 65
+
+Golden tests：固定预期行为
+golden tests 是把结果拿来和预期输出比较，或和非常具体的输出属性比较。它们用于在 prompt、模型或工具链变化时发现回归。
+
+常见有两种形式：
+
+精确 golden
+适用于输出必须非常稳定的情况，例如结构化格式。
+示例：
+```json
+{
+  "id": "routing-01",
+  "expected": {
+    "category": "billing",
+    "confidence": "high"
+  }
+}
+```
+
+按属性的 golden
+适用于不想冻结完整文本、但要冻结行为的情况。
+示例：
+回答不能编造数据；
+必须包含警告；
+必须刚好返回 3 个步骤；
+必须使用预期语言；
+不能提到未授权工具。
+
+第二种格式更灵活，也通常更适合自然语言系统。golden 不一定是精确字符串；很多时候，它是可观察规则的满足情况。
+
+Harness CLI：运行、比较、重复
+harness 是运行 prompts 和 fixtures、记录结果并与参考基线比较的环境。设计良好的 CLI 可以让这一切在终端和 CI 中重复执行。
+
+合理结构会分开：
+prompt 定义；
+fixtures 定义；
+模型配置；
+批量执行；
+评估；
+BIBLIA - Nicolás Ezequiel Melluso
+65/92
+
+## Page 66
+
+报告；
+结果导出。
+
+可能的结构
+```text
+prompt-harness/
+  prompts/
+    system.md
+    task.md
+  fixtures/
+    inbox.jsonl
+    safety.jsonl
+    formatting.jsonl
+  evals/
+    rubric.md
+    scoring.ts
+  runs/
+    run-001.jsonl
+  reports/
+    latest.md
+  src/
+    cli.ts
+    harness.ts
+    loader.ts
+    evaluator.ts
+```
+
+命令示例
+```bash
+node src/cli.js run --prompt prompts/system.md --fixtures fixtures/inbox.jsonl
+node src/cli.js eval --run runs/latest.jsonl --rubric evals/rubric.md
+node src/cli.js compare --baseline runs/baseline.jsonl --candidate runs/latest.jsonl
+node src/cli.js report --input runs/latest.jsonl --output reports/latest.md
+```
+
+CLI 应该做什么
+有用的 CLI 不只是调用模型。它还会：
+验证文件是否存在；
+规范化输入；
+记录 prompt 和模型版本；
+保存 timestamps；
+序列化原始回答；
+计算指标；
+为 CI 输出清晰摘要。
+
+如果 harness 只打印漂亮文本，它只是 demo。如果它还留下可追踪性和可比较结果，就开始成为基础设施。
+BIBLIA - Nicolás Ezequiel Melluso
+66/92
+
+## Page 67
+
+init.sh 作为健康合同
+在开发 harness 中，最重要的脚本不一定最复杂。很多时候，它只是一个命令：
+```bash
+./init.sh
+```
+
+这个脚本应该回答一个简单问题：“这个 repo 是否处于可以继续的状态？” 为此它可以：
+1. 验证依赖是否存在。
+2. 执行 tests。
+3. 运行 linters 或 typechecks。
+4. 验证 specs 结构。
+5. 确认没有超过一个 feature 处于 `in_progress`。
+6. 如果 requirements 和 tests 之间缺少可追踪性，就失败。
+
+运营规则：
+如果 `./init.sh` 是红的，feature 就不能是 `done`。
+
+目标不是替代 CI。目标是给 agent 一个清楚的本地入口。如果每次收尾都能以“已执行 `./init.sh`，结果为绿”结束，团队审查时就少很多歧义。
+
+推荐的最小合同：
+```text
+0 = 全部通过
+1 = 验证或 tests 失败
+2 = 缺少本地配置
+3 = SDD 结构无效
+4 = 权限不足或动作被阻止
+```
+
+脚本还应该是幂等的：运行两次不应改变 repo，也不应依赖看不见的状态。如果耗时太长，就把快速检查和重型 suites 分开，并把两个命令都写清楚。agent 需要可靠的本地 gate，而不是不可预测的仪式。
+
+最小示例：
+```sh
+#!/usr/bin/env sh
+set -eu
+command -v node >/dev/null 2>&1 || exit 2
+npm test || exit 1
+npm run lint || exit 1
+node scripts/validate-sdd.mjs || exit 3
+node scripts/check-permissions.mjs || exit 4
+```
+BIBLIA - Nicolás Ezequiel Melluso
+67/92
+
+## Page 68
+
+如果团队主要在 Windows 上工作，可以提供等价的 `init.ps1` 或 `node scripts/init.mjs`。重点是必须有一个记录在案、可重复、退出码清楚的收尾命令。
+
+Requirement-test 可追踪性
+严肃的 harness 不满足于“有 tests”。它需要知道哪个 test 覆盖哪个 requirement。
+
+示例：
+```text
+R1 -> test_recent_default_limit
+R2 -> test_recent_invalid_limit
+R3 -> test_recent_empty_store
+```
+
+可追踪性可以存在于：
+`specs/<feature>/requirements.md`；
+`specs/<feature>/tasks.md`；
+`progress/review_<feature>.md`；
+harness 生成的表格。
+
+reviewer 应该在以下情况拒绝：
+1. 某个 `R<n>` 没有 test。
+2. 新 test 没有链接到任何 requirement。
+3. task 声称覆盖某个 requirement，但 test 没有证明。
+4. 代码实现了 spec 中没有出现的行为。
+
+这可以避免一个常见陷阱：添加了执行代码的 tests，却没有验证真实合同。
+
+有用的 trace 表格可以长这样：
+
+| Requirement | Test | Evidence | Status |
+| --- | --- | --- | --- |
+| R1 | `test_recent_default_limit` | `tests/test_recent.py` | covered |
+| R2 | `test_recent_invalid_limit` | `tests/test_recent.py` | covered |
+| R3 | `test_recent_empty_store` | `tests/test_recent.py` | covered |
+
+收尾规则很简单：只要 trace 表里还有空洞，feature 就没有完成。
+BIBLIA - Nicolás Ezequiel Melluso
+68/92
+
+## Page 69
+
+Hooks 和 workflows 作为 guardrails
+如果一条规则很关键，就不应该只依赖 agent 记得遵守。应该把它自动化。
+
+在 Claude-first 的表面中，hooks 可以在编辑后执行轻量检查，并在收尾前执行完整验证：
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run check:quick"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npm run check:full"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+在 GitHub-first 的表面中，对应物是 workflows：
+```text
+.claude/settings.json  -> Claude Code 的本地 hooks
+.github/workflows/*   -> PR/CI 的远程验证
+```
+
+原则相同：把重要规则转化为可执行验证。
+
+这些命令只是示例。在 Python、Go、Rust 或 Windows-first repo 中，应该使用项目自然的命令。重要规则不是 runtime 名称，而是把快速检查和完整收尾分开。
+
+关键细节是失败方式。一个只打印警告但允许继续的 hook 并不会阻止任何事。如果规则是强制性的，命令必须返回非零退出码，并留下简短消息说明要修什么。如果规则只是信息性提示，也应该明确说出来，避免和真正的 gate 混淆。
+BIBLIA - Nicolás Ezequiel Melluso
+69/92
+
+## Page 70
+
+Harness-SDD Checklist
+在关闭一个由 AI 辅助的 feature 之前：
+
+- [ ] 只有一个 active feature。
+- [ ] `feature_list.json` 反映真实状态。
+- [ ] 如果 `sdd: true`，存在 `requirements.md`、`design.md`、`tasks.md`。
+- [ ] 人类在修改代码前批准了 spec。
+- [ ] 每个 requirement 都有 `R<n>` id。
+- [ ] 每个 `R<n>` 至少有一个 test。
+- [ ] 每个 task 引用一个或多个 requirements。
+- [ ] implementer 标记了已完成 tasks。
+- [ ] reviewer 验证了可追踪性。
+- [ ] `./init.sh` 绿色结束。
+- [ ] `progress/current.md` 已关闭或标记为 blocked。
+- [ ] `progress/history.md` 收到最终摘要。
+
+这份清单故意严格。现代 AI 不是靠越来越长的 prompts 控制的。它靠 harnesses 控制：文件、状态、specs、权限、tests 和 reviews，让 agent 无法跳过流程而不留下证据。
+
+Evals 和 rubrics：衡量超过“我喜欢”
+prompt 的评估不能只依赖直觉。你需要可重复的标准。rubric 就是这个入口：明确说明什么叫“好”。
+
+命名约定：在 SDD 中，`evaluations/` 通常保存评估备注、结论和决策。在 harness 中，`evals/` 通常包含可执行或半可执行部件：rubrics、scoring、fixtures 和 scripts。它们可以连接，但功能不同。`evals/` 负责测量；`evaluations/` 留下立场和决定。
+
+简单 rubric
+rubric 可以给这些维度打分：
+对上下文的忠实度；
+完整性；
+准确性；
+格式；
+语气；
+安全性；
+可行动性。
+
+示例：
+每个维度 0-2 分：
+0 = 严重失败
+BIBLIA - Nicolás Ezequiel Melluso
+70/92
+
+## Page 71
+
+1 = 部分满足
+2 = 满足
+
+可能阈值：
+平均分 >= 1.7 且没有关键维度为 0 -> 可通过
+平均分在 1.2 到 1.69 之间 -> 需要审查
+平均分 < 1.2 或 safety = 0 -> 拒绝
+
+阈值不必通用。它必须在评估前写下来，因为看完结果后再改规则，会把评估变成 opinion。
+
+`evals/rubric.md` 示例：
+```markdown
+# 操作性回答 Rubric
+
+## 维度
+- 对上下文的忠实度：不编造数据，也不和来源矛盾。
+- 完整性：覆盖所有要求点。
+- 可行动性：留下可验证的下一步。
+- 安全性：遵守权限和阻止规则。
+- 格式：交付要求的结构。
+
+## 决策规则
+- 可通过：平均分 >= 1.7 且 safety > 0。
+- 审查：平均分在 1.2 到 1.69 之间。
+- 拒绝：平均分 < 1.2 或 safety = 0。
+```
+
+评估示例
+
+| Dimension | Criterion |
+| --- | --- |
+| Fidelity | 不编造数据，也不和 input 矛盾 |
+| Format | 遵守要求结构 |
+| Tone | 保持专业语言 |
+| Actionability | 给出有用下一步 |
+| Safety | 不执行或建议被禁止的动作 |
+
+自动评估与人工评估
+两种方法应该结合。
+自动：适合客观规则、格式、长度、字段存在性、禁止模式；
+BIBLIA - Nicolás Ezequiel Melluso
+71/92
+
+## Page 72
+
+人工：适合质量、清晰度、说服力、实用性和对齐度的细微判断。
+
+在真实系统里，最常见的错误是把贫弱的自动指标当成能解决一切。它们有用，但不能替代批判性阅读。好的实践是用自动化过滤，再用人工 rubric 决策。
+
+Regression tests：不要破坏已经可用的东西
+regression test 比较版本之间的行为。目标不是永远冻结系统，而是检测不想要的变化。
+
+在成熟流程中，每次 prompt 或模型变化都应该回答：
+1. 什么变好了；
+2. 什么变坏了；
+3. 出现了哪些新案例；
+4. 哪些 trade-off 可以接受；
+5. 哪些需要 rollback。
+
+典型回归案例
+新 prompt 开始变得过度冗长；
+安全警告消失；
+模型不再要求澄清；
+语言改变；
+JSON 格式破坏 parser；
+工具在不该调用时被调用。
+
+实践策略
+维护一组小而关键的 fixtures，再维护一组更大的探索性 fixtures。关键 fixtures 保护核心行为。探索性 fixtures 展示系统在主路径之外如何表现。
+
+如果 regression test 失败，不能只“修 output”。必须理解问题来自：
+prompt；
+模型；
+postprocessing；
+配置；
+policy；
+数据集。
+
+安全与权限
+当模型会产生动作时，只回答正确还不够。它还必须在清楚边界内行动。在带工具的系统中，安全是 prompt 设计和 harness 的一部分。
+BIBLIA - Nicolás Ezequiel Melluso
+72/92
+
+## Page 73
+
+基本原则
+最小权限；
+敏感动作需要确认；
+区分建议和执行；
+验证 input 和 output；
+记录 decisions；
+明确阻止危险动作。
+
+规则示例
+如果一个动作会修改数据、收款、删除信息或发送外部消息，执行前要请求人类确认。
+
+安全 prompt
+prompt 不应该默认拥有权限或凭据，也不应该鼓励模型“自己解决”需要外部验证的事情。
+
+示例：
+不要假设你能访问外部系统。如果需要有影响的动作，请描述该动作并请求确认。
+
+安全 harness
+harness 应该能够模拟权限并测试边界：
+无 internet access；
+工具被禁用；
+使用假凭据；
+只读模式；
+需要确认。
+
+这样可以验证系统不仅在一切启用时能工作，也能在约束下运行。
+
+Observability：看见真实发生了什么
+observability 让系统离开实验室后仍然可以调试和学习。如果一个 prompt 在生产中失败，你需要重建上下文。
+
+应该记录什么
+prompt 版本；
+模型版本；
+BIBLIA - Nicolás Ezequiel Melluso
+73/92
+
+## Page 74
+
+日期和时间；
+输入摘要；
+原始输出；
+使用的工具；
+latency；
+估计成本；
+错误；
+policy decision；
+fixture 或案例标识符。
+
+log 示例
+```json
+{
+  "run_id": "run-001",
+  "prompt_version": "1.4.2",
+  "model": "provider-model-id",
+  "fixture_id": "safety-03",
+  "latency_ms": 1840,
+  "tools_used": ["search"],
+  "outcome": "needs_review"
+}
+```
+
+log hygiene：不要保存 secrets、tokens、不必要的个人数据，或不能流转的内部 prompts。审计通常只需要 identifiers、hashes、input 摘要、相关 output，以及指向受控 artifacts 的指针。
+
+先看什么
+当某件事失败时，通常先检查：
+1. 原始 input；
+2. 实际应用的 prompt；
+3. 模型配置；
+4. 可用 tools；
+5. 原始 output；
+6. postprocessing；
+7. 评估标准。
+
+没有 observability，每个 bug 都像魔法。有了 observability，它会变成一串可审计的 decisions。
+
+harness 的最小示例
+为了把想法落地，想象一个系统会分类内部请求，并返回一个简短计划。最小 architecture 可以是：
+BIBLIA - Nicolás Ezequiel Melluso
+74/92
+
+## Page 75
+
+1. 加载 persistent instructions
+2. 加载 task prompt
+3. 加载 fixture
+4. 构造最终 message
+5. 执行模型
+6. 验证格式
+7. 用 rubric 打分
+8. 保存结果
+9. 与 baseline 比较
+10. 报告
+
+伪代码
+```js
+const system = loadFile("prompts/system.md")
+const task = loadFile("prompts/task.md")
+const fixtures = loadJsonl("fixtures/inbox.jsonl")
+
+for (const fixture of fixtures) {
+  const input = buildInput(system, task, fixture)
+  const output = await model.run(input)
+  const score = evaluate(output, fixture.expected_traits)
+  saveRun({ fixtureId: fixture.id, output, score })
+}
+```
+
+这个示例的重点
+开始不需要复杂度。关键是流程必须：
+明确；
+可复现；
+有版本；
+可评估；
+可比较。
+
+一旦这些存在，就可以扩展。在此之前，一切都很难维护。
+
+如何迭代 prompts 而不破坏系统
+改进 prompt 时，不应该盲目编辑。更好的方式是用短而有纪律的循环。
+
+迭代 checklist
+定义准确问题；
+选择有代表性的 fixture；
+写下改进假设；
+一次只改一件事；
+BIBLIA - Nicolás Ezequiel Melluso
+75/92
+
+## Page 76
+
+运行 harness；
+与 baseline 比较；
+审查新的失败；
+接受变更或 revert；
+记录 decision。
+
+实践规则
+1. 不要在同一次迭代里混合格式改进和 policy 变化。
+2. 不要用一个 happy path 示例证明一个改动。
+3. 不看 regressions 就不要宣布成功。
+4. 不要保存没有版本和理由的新 prompt。
+5. 如果关键业务逻辑更适合放在代码里，就不要只把它塞进 prompt。
+
+什么时候应该把逻辑移出 prompt
+prompt 不应该承载一切。如果某条规则严格、可验证、且对业务核心重要，通常更应该在模型之外编码。
+
+示例：
+schema validation；
+permission rules；
+deterministic routing；
+sensitive data filtering；
+format normalization；
+metric calculation。
+
+prompt 留给它最擅长的事：解释、排序、写作、综合，以及带上下文决策。代码留给它最擅长的事：验证、控制，以及以确定性方式执行。
+
+成熟信号
+当你不需要临场发挥就能回答这些问题时，就说明已经从“零散 prompt”进入“系统”：
+生产中是哪一版 prompt？
+用哪些 fixtures 验证？
+rubric 定义了哪些标准？
+相对 baseline 改了什么？
+允许哪些 actions？
+logs 里留下了什么？
+哪些 regressions 可容忍，哪些不可容忍？
+BIBLIA - Nicolás Ezequiel Melluso
+76/92
+
+## Page 77
+
+如果这些答案分散在各处，系统仍然过度依赖人的记忆。
+
+操作性总结
+Prompt engineering 不只是写得更好。它是在设计一套可以长期支撑的 instruction interface。Harness engineering 是让这种可持续性成为可能的支撑：加载 fixtures、运行版本、评估结果、记录证据，并保护系统免受意外变化影响。
+
+实践边界：
+
+| Decision | Lives better in | Example |
+| --- | --- | --- |
+| 语气、角色、格式和软性标准 | Prompt | “用清晰中文回答，并按优先级列出 findings” |
+| 确定性规则、权限和硬性验证 | Code | “拒绝 limit > 50” |
+| 测试案例、比较和证据 | Harness | fixtures、scoring、reports 和 baseline |
+| 产品或风险 decisions | Human evaluation | 接受 trade-off、要求 rollback、改变 scope |
+
+如果某件事必须永远满足，就不应该只依赖 prompt 里的一个句子。它应该由代码、test、harness 或明确的人工 review 验证。
+
+实践纪律可以归纳为一个简单公式：
+把 persistent instructions 和 task prompts 分开；
+使用真实且有代表性的 fixtures；
+用 golden tests 和 rubrics 固定预期；
+发布变更前运行 regression tests；
+控制权限和敏感 actions；
+观察生产中的实际情况；
+对所有重要内容做版本化。
+
+当这些存在时，prompt 不再是一场赌注，而是一个工程部件。
+
+最终 checklist
+定义系统的 persistent instruction。
+把 task prompt 与 dynamic context 分开。
+为 happy、ambiguous、dangerous 案例创建 fixtures。
+每个关键行为至少写一个 golden test。
+BIBLIA - Nicolás Ezequiel Melluso
+77/92
+
+## Page 78
+
+设计简单且可重复的 rubric。
+实现带 `run`、`eval` 和 `report` 的 harness CLI。
+保存 prompts、model 和 configuration 的版本。
+记录每次执行的 logs 和 latency。
+测试权限、fallbacks 和无工具场景。
+每次变更都与 baseline 比较。
+记录 change 和 rollback decisions。
+
+这套内容足以把一个有前景的想法推进为可生产、可审计、可维护的能力。
+BIBLIA - Nicolás Ezequiel Melluso
+78/92
+
+## Page 79
+
+VOLUME 06
+示例与使用案例
+把《La Biblia Moderna》应用到真实仓库的完整 scaffolding
+
+读完本卷，你会拥有一套完整 scaffolding，可以把整本 La Biblia Moderna 应用到一个真实 repo 中。
+BIBLIA - Nicolás Ezequiel Melluso
+79/92
+
+## Page 80
+
+本卷用一个完整案例收尾。这个示例的截止日期是 2026-05-15。它不是为了展示装饰性 mockup，而是一个功能性 scaffolding：人可以复制、调整，并把它作为带 AI、SDD、subagents、可复用 prompts、本地验证、CI 和 harness 的 repo 基础。
+
+刻意选择一个小系统：名为 `agentic-notes` 的 notes CLI。它可以添加 notes、列出最近 notes，并搜索文本。领域很简单，但工作结构很稳健。这样就能清楚看到每个文件负责什么，以及各部件如何连接。
+
+最终结构
+```text
+agentic-notes/
+  AGENTS.md
+  README.md
+  package.json
+  init.sh
+  src/
+    cli.mjs
+    store.mjs
+  test/
+    notes.test.mjs
+  scripts/
+    validate-sdd.mjs
+  harness/
+    fixtures/
+      recent.jsonl
+    evals/
+      rubric.md
+    run-eval.mjs
+  .github/
+    copilot-instructions.md
+    instructions/
+      tests.instructions.md
+    prompts/
+      plan-feature.prompt.md
+      review-pr.prompt.md
+    workflows/
+      ci.yml
+    orquestador/
+      context/
+        product.md
+        architecture.md
+      sdd/
+        requirements/
+          recent-notes.md
+        specs/
+          recent-notes.md
+        tasks/
+          recent-notes.md
+        acceptance/
+          recent-notes.md
+BIBLIA - Nicolás Ezequiel Melluso
+80/92
+
+## Page 81
+
+```text
+        traces/
+          recent-notes.md
+        evaluations/
+          recent-notes.md
+        progress/
+          current.md
+          history.md
+      pipelines/
+        catalog.md
+```
+
+README.md
+````markdown
+# Agentic Notes
+
+管理本地 notes 的最小 CLI，同时演示带 AI、SDD、subagents 和 harness 的工作流。
+
+## Commands
+
+```bash
+npm test
+npm run validate:sdd
+npm run check
+node src/cli.mjs add "研究 AGENTS.md"
+node src/cli.mjs recent --limit 5
+node src/cli.mjs search AGENTS
+```
+
+## Workflow
+
+1. requirement 位于 `.github/orquestador/sdd/requirements/`。
+2. 可验证 spec 位于 `.github/orquestador/sdd/specs/`。
+3. tasks 位于 `.github/orquestador/sdd/tasks/`。
+4. trace 位于 `.github/orquestador/sdd/traces/`。
+5. operational state 位于 `.github/orquestador/sdd/progress/`。
+6. 收尾用 `./init.sh` 或 `npm run check` 验证。
+````
+
+package.json
+```json
+{
+  "name": "agentic-notes",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "validate:sdd": "node scripts/validate-sdd.mjs",
+BIBLIA - Nicolás Ezequiel Melluso
+81/92
+
+## Page 82
+
+```json
+    "eval": "node harness/run-eval.mjs",
+    "check": "npm test && npm run validate:sdd && npm run eval"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+```
+
+AGENTS.md
+```markdown
+# AGENTS.md
+
+这个 repo 使用 AI，并遵守一条核心规则：没有 spec、evidence 和 trace，任何重要变更都不能关闭。
+
+## Initial Reading
+
+1. 阅读 `README.md`。
+2. 阅读 `.github/orquestador/context/product.md`。
+3. 阅读 `.github/orquestador/context/architecture.md`。
+4. 如果任务触及行为，阅读 `.github/orquestador/sdd/specs/` 中对应的 spec。
+5. 行动前检查 `.github/orquestador/sdd/progress/current.md`。
+
+## Roles
+
+- `explorer`: 调查并用 evidence 交付 findings。不修改文件。
+- `spec_author`: 把 idea 转成 requirements、spec 和 tasks。不实现。
+- `implementer`: 只修改 explicit ownership 下的文件。
+- `reviewer`: 审查 diff、tests 和 trace。审查时不直接修。
+
+## Close Rules
+
+- 执行 `npm run check`。
+- 如果 requirements、tasks 或 tests 改变，更新 trace。
+- 在 `.github/orquestador/sdd/progress/history.md` 记录 evidence。
+- 如果 `init.sh` 或 `npm run check` 失败，不声明 `done`。
+```
+
+init.sh
+```sh
+#!/usr/bin/env sh
+set -eu
+command -v node >/dev/null 2>&1 || {
+  echo "Node.js is not available"
+  exit 2
+}
+BIBLIA - Nicolás Ezequiel Melluso
+82/92
+
+## Page 83
+
+```sh
+npm test || exit 1
+npm run validate:sdd || exit 3
+npm run eval || exit 1
+```
+
+src/store.mjs
+```js
+import fs from "node:fs";
+import path from "node:path";
+
+const dataDir = path.resolve(".data");
+const dataFile = path.join(dataDir, "notes.json");
+
+export function readNotes() {
+  if (!fs.existsSync(dataFile)) return [];
+  return JSON.parse(fs.readFileSync(dataFile, "utf8"));
+}
+
+export function writeNotes(notes) {
+  fs.mkdirSync(dataDir, { recursive: true });
+  fs.writeFileSync(dataFile, JSON.stringify(notes, null, 2) + "\n", "utf8");
+}
+
+export function addNote(title) {
+  if (!title || !title.trim()) {
+    throw new Error("Note title is required");
+  }
+  const notes = readNotes();
+  const now = new Date().toISOString();
+  const note = {
+    id: `note-${notes.length + 1}`,
+    title: title.trim(),
+    created_at: now,
+    updated_at: now
+  };
+  notes.push(note);
+  writeNotes(notes);
+  return note;
+}
+
+export function recentNotes(limit = 10) {
+  const parsedLimit = Number(limit);
+  if (!Number.isInteger(parsedLimit) || parsedLimit < 1 || parsedLimit > 50) {
+    throw new Error("Limit must be an integer between 1 and 50");
+  }
+  return readNotes()
+BIBLIA - Nicolás Ezequiel Melluso
+83/92
+
+## Page 84
+
+```js
+    .toSorted((a, b) => b.updated_at.localeCompare(a.updated_at))
+    .slice(0, parsedLimit);
+}
+
+export function searchNotes(query) {
+  const normalized = String(query || "").trim().toLowerCase();
+  if (!normalized) return [];
+  return readNotes().filter((note) =>
+    note.title.toLowerCase().includes(normalized)
+  );
+}
+```
+
+src/cli.mjs
+```js
+#!/usr/bin/env node
+import { addNote, recentNotes, searchNotes } from "./store.mjs";
+
+const [, , command, ...args] = process.argv;
+
+function getOption(name, fallback) {
+  const index = args.indexOf(name);
+  if (index === -1) return fallback;
+  return args[index + 1] ?? fallback;
+}
+
+function printNotes(notes) {
+  if (notes.length === 0) {
+    console.log("No notes to display.");
+    return;
+  }
+  for (const note of notes) {
+    console.log(`${note.id} | ${note.updated_at} | ${note.title}`);
+  }
+}
+
+try {
+  if (command === "add") {
+    const note = addNote(args.join(" "));
+    console.log(`Note created: ${note.id}`);
+  } else if (command === "recent") {
+    printNotes(recentNotes(getOption("--limit", 10)));
+  } else if (command === "search") {
+    printNotes(searchNotes(args.join(" ")));
+  } else {
+    console.log("Usage: notes add <title> | recent [--limit n] | search <text>");
+    process.exitCode = 2;
+  }
+} catch (error) {
+BIBLIA - Nicolás Ezequiel Melluso
+84/92
+
+## Page 85
+
+```js
+  console.error(error.message);
+  process.exitCode = 1;
+}
+```
+
+test/notes.test.mjs
+```js
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import test from "node:test";
+import { addNote, recentNotes, searchNotes } from "../src/store.mjs";
+
+test.beforeEach(() => {
+  fs.rmSync(".data", { recursive: true, force: true });
+});
+
+test("recent shows 10 notes by default", () => {
+  for (let index = 1; index <= 12; index += 1) {
+    addNote(`Note ${index}`);
+  }
+  assert.equal(recentNotes().length, 10);
+});
+
+test("recent respects --limit", () => {
+  for (let index = 1; index <= 8; index += 1) {
+    addNote(`Note ${index}`);
+  }
+  assert.equal(recentNotes(5).length, 5);
+});
+
+test("recent rejects invalid limits", () => {
+  assert.throws(() => recentNotes(0), /between 1 and 50/);
+  assert.throws(() => recentNotes(99), /between 1 and 50/);
+});
+
+test("search finds notes by title", () => {
+  addNote("Research AGENTS.md");
+  addNote("Prepare runbook");
+  assert.equal(searchNotes("agents").length, 1);
+});
+```
+BIBLIA - Nicolás Ezequiel Melluso
+85/92
+
+## Page 86
+
+scripts/validate-sdd.mjs
+```js
+import fs from "node:fs";
+
+const requiredFiles = [
+  ".github/orquestador/context/product.md",
+  ".github/orquestador/context/architecture.md",
+  ".github/orquestador/sdd/requirements/recent-notes.md",
+  ".github/orquestador/sdd/specs/recent-notes.md",
+  ".github/orquestador/sdd/tasks/recent-notes.md",
+  ".github/orquestador/sdd/acceptance/recent-notes.md",
+  ".github/orquestador/sdd/traces/recent-notes.md"
+];
+
+let failed = false;
+for (const file of requiredFiles) {
+  if (!fs.existsSync(file)) {
+    console.error(`Missing SDD file: ${file}`);
+    failed = true;
+  }
+}
+
+const trace = fs.existsSync(".github/orquestador/sdd/traces/recent-notes.md")
+  ? fs.readFileSync(".github/orquestador/sdd/traces/recent-notes.md", "utf8")
+  : "";
+
+for (const requirement of ["R1", "R2", "R3"]) {
+  if (!trace.includes(requirement)) {
+    console.error(`Incomplete trace: missing ${requirement}`);
+    failed = true;
+  }
+}
+
+process.exit(failed ? 3 : 0);
+```
+
+.github/orquestador/context/product.md
+```markdown
+# Product
+
+Agentic Notes 是一个用于创建和查询 notes 的本地 CLI。它的目标不是和完整 notes app 竞争，而是展示一套适合 AI 辅助工作的稳健基础。
+
+## Users
+
+- 想快速记录 ideas 的 developers。
+- 想练习 SDD 和 traceability 的 teams。
+- 需要最小但可运行示例的人。
+BIBLIA - Nicolás Ezequiel Melluso
+86/92
+
+## Page 87
+
+```markdown
+## Non-goals
+
+- 不做 cloud sync。
+- 不做 web UI。
+- 不做 authentication。
+```
+
+.github/orquestador/context/architecture.md
+```markdown
+# Architecture
+
+应用使用 Node.js ESM 和本地 JSON storage。
+
+## Components
+
+- `src/cli.mjs`: command boundary。
+- `src/store.mjs`: domain rules 和 persistence。
+- `test/notes.test.mjs`: behavior coverage。
+- `scripts/validate-sdd.mjs`: SDD structure 的 local gate。
+- `harness/run-eval.mjs`: 基于 fixtures 的最小 evaluation。
+
+## Rule
+
+CLI 可以 parse arguments，但 business rules 位于 `store.mjs`。
+```
+
+SDD: requirements
+```markdown
+# Requirements: recent notes
+
+## R1
+系统默认必须显示最近 10 条 notes。
+
+## R2
+用户必须能够通过 `--limit` 修改 limit，范围是 1 到 50。
+
+## R3
+如果没有 notes，系统必须返回中性消息，并且不失败。
+```
+BIBLIA - Nicolás Ezequiel Melluso
+87/92
+
+## Page 88
+
+SDD: spec
+````markdown
+# Spec: recent notes
+
+Command:
+```bash
+node src/cli.mjs recent --limit 5
+```
+
+## Rules
+
+- 按 `updated_at` 降序排序。
+- 如果未提供 `--limit`，使用 limit 10。
+- 拒绝小于 1 或大于 50 的 limits。
+- 没有 notes 时显示 `No notes to display.`。
+````
+
+SDD: tasks
+```markdown
+# Tasks: recent notes
+
+- [x] T1 -> R1: 实现降序排序和默认 limit。
+- [x] T2 -> R2: parse 并 validate `--limit`。
+- [x] T3 -> R3: 覆盖空 notes 状态。
+- [x] T4 -> R1/R2/R3: 添加 tests。
+- [x] T5 -> R1/R2/R3: 更新 trace。
+```
+
+SDD: acceptance
+```markdown
+# Acceptance: recent notes
+
+- A1: 有 12 条 notes 时，`recent` 显示 10 条。
+- A2: 使用 `--limit 5` 时，`recent` 显示 5 条。
+- A3: 使用 `--limit 0` 时，command 失败并给出清楚消息。
+- A4: 没有 notes 时，command 显示中性消息。
+```
+
+SDD: traces
+```markdown
+# Trace: recent notes
+
+| Requirement | Task | Test | Evidence |
+| --- | --- | --- | --- |
+| R1 | T1, T4 | `recent shows 10 notes by default` | `npm test` |
+BIBLIA - Nicolás Ezequiel Melluso
+88/92
+
+## Page 89
+
+```markdown
+| R2 | T2, T4 | `recent respects --limit` | `npm test` |
+| R2 | T2, T4 | `recent rejects invalid limits` | `npm test` |
+| R3 | T3, T4 | empty output in `printNotes` | `npm test` + CLI review |
+```
+
+Harness
+
+`harness/fixtures/recent.jsonl`
+```jsonl
+{"id":"recent-default","command":"recent","expected":"10 notes by default"}
+{"id":"recent-limit","command":"recent --limit 5","expected":"5 notes"}
+{"id":"recent-empty","command":"recent","expected":"neutral message when no notes exist"}
+```
+
+`harness/evals/rubric.md`
+```markdown
+# Rubric
+
+- Fidelity: satisfies R1, R2 and R3.
+- Safety: does not write outside `.data/`.
+- Clarity: errors include actionable messages.
+- Maintainability: rules in `store.mjs`, CLI in `cli.mjs`.
+
+Minimum acceptable result: no critical dimension in red.
+```
+
+`harness/run-eval.mjs`
+```js
+import fs from "node:fs";
+
+const fixtures = fs
+  .readFileSync("harness/fixtures/recent.jsonl", "utf8")
+  .trim()
+  .split("\n")
+  .map((line) => JSON.parse(line));
+
+for (const fixture of fixtures) {
+  if (!fixture.id || !fixture.command || !fixture.expected) {
+    console.error(`Invalid fixture: ${JSON.stringify(fixture)}`);
+    process.exit(1);
+  }
+}
+
+console.log(`Valid fixtures: ${fixtures.length}`);
+```
+
+Reusable prompts
+.github/prompts/plan-feature.prompt.md
+BIBLIA - Nicolás Ezequiel Melluso
+89/92
+
+## Page 90
+
+```markdown
+---
+agent: 'agent'
+description: "Convert an idea into an SDD spec"
+---
+
+Use context from `.github/orquestador/context/`.
+
+Input:
+${input:feature:Describe the feature}
+
+Produce:
+1. problem;
+2. non-goals;
+3. requirements R1..Rn;
+4. verifiable spec;
+5. tasks by slices;
+6. suggested tests;
+7. risks.
+
+Do not implement.
+```
+
+.github/prompts/review-pr.prompt.md
+```markdown
+---
+agent: 'agent'
+description: "Review PR with focus on behavior and traceability"
+---
+
+Review diff, tests and SDD.
+
+Priority:
+1. bugs;
+2. regressions;
+3. permissions;
+4. requirements without test;
+5. tests without requirement.
+
+Output:
+- findings with file;
+- open questions;
+- decision: approve, block or request changes.
+```
+
+GitHub Actions
+.github/workflows/ci.yml
+```yaml
+name: ci
+BIBLIA - Nicolás Ezequiel Melluso
+90/92
+
+## Page 91
+
+```yaml
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run check
+```
+
+Progress
+
+`.github/orquestador/sdd/progress/current.md`
+```markdown
+# Current
+
+Active feature: recent notes
+State: implemented
+Blockers: none
+Next step: human review and close.
+```
+
+`.github/orquestador/sdd/progress/history.md`
+```markdown
+# History
+
+## recent notes
+
+- Requirements R1, R2 and R3 covered.
+- Tests executed with `npm test`.
+- SDD validated with `npm run validate:sdd`.
+- Harness validated with `npm run eval`.
+```
+
+La Biblia Moderna 的收尾
+La Biblia Moderna 不是主张为了使用 AI 而使用更多 AI。它主张更好地工作：清楚的 intent、有用 context、可验证 specifications、边界清楚的 subagents、可复用 prompts、可测量 harnesses，以及收尾 evidence。
+BIBLIA - Nicolás Ezequiel Melluso
+91/92
+
+## Page 92
+
+如果一个人能够打开 repo、阅读规则、理解合同、执行验证，并在不依赖一段已经丢失的对话的情况下继续工作，那么系统就已经开始成熟。
+
+最终目标是：让 artificial intelligence 不再只是一次聪明的 improvisation，而成为一种工程能力。
+BIBLIA - Nicolás Ezequiel Melluso
+92/92
